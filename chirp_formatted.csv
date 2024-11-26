@@ -1,0 +1,359 @@
+Location,Name,Frequency,Duplex,Offset,Tone,rToneFreq,cToneFreq,DtcsCode,DtcsPolarity,Mode,TStep,Skip,Comment
+1,MBAPK,53.310,-,1.0,None,,,,,FM,5.00,,Located on Mt. Beacon
+2,MBN,146.895,-,0.6,None,,,,,FM,5.00,,Located in Millbrook
+3,MBN,146.970,-,-0.6,None,,,,,FM,5.00,,Transmitter and receiver on Mt. Beacon
+4,MBN,147.045,-,0.6,None,,,,,FM,5.00,,Located in Highland
+5,MBW,223.920,-,1.6,None,,,,,FM,5.00,,Located on Mt. Beacon
+6,MBW,449.575,-,5.0,None,,,,,FM,5.00,,Located on Mt. Beacon
+7,MBN,921.200,-,12.0,None,,,,,FM,5.00,,Located on Mt. Beacon
+8,MBN,449.975,-,5.0,None,,,,,NFM,5.00,,"""DMR & FM modes; Color Code 11"
+9,MBK,440.3125,-,-5.0,None,,,,,NFM,5.00,,"""DMR mode; Color Code 11"
+10,OC Jail,460.4125,off,0.000,None,,,,,NFM,5.00,,Used by Sheriff
+11,OC FD Pgng,154.205,off,0.000,None,,,,,NFM,5.00,,Paging for fire services
+12,OC FG A,458.9875,off,0.000,None,,,,,NFM,5.00,,Primary fireground channel
+13,OC EM FG,460.5875,off,0.000,None,,,,,NFM,5.00,,Alternate fireground channel
+14,OC Cmd A,453.9625,off,0.000,None,,,,,NFM,5.00,,Primary command channel
+15,OC Cmd B,465.5875,off,0.000,None,,,,,NFM,5.00,,Secondary command channel
+16,OC FG B,458.2625,off,0.000,None,,,,,NFM,5.00,,Alternate fireground channel
+17,OEP,157.450,off,0.000,None,,,,,NFM,5.00,,Simulcast EMS paging
+18,OET,155.280,off,0.000,None,,,,,NFM,5.00,,Tactical operations channel
+19,PGA,853.9875,off,0.000,None,,,,,NFM,5.00,,Public safety interop channel
+20,BlmGrv Hwy,151.040,off,0.000,None,,,,,NFM,5.00,,Highway department communications
+21,Cornw DPW,155.115,off,0.000,None,,,,,NFM,5.00,,Public works communications
+22,G,156.165,off,0.000,None,,,,,NFM,5.00,,Dispatch for Greenwood Lake EMS
+23,KJ EMS,155.955,off,0.000,None,,,,,NFM,5.00,,EMS dispatch for Kiryas Joel
+24,MD,155.985,off,0.000,None,,,,,NFM,5.00,,Public works communications
+25,NED,150.845,off,0.000,None,,,,,NFM,5.00,,Primary EMS dispatch
+26,PJF,154.100,off,0.000,None,,,,,NFM,5.00,,City buses and DPW communications
+27,WD,155.820,off,0.000,None,,,,,NFM,5.00,,Public works communications
+28,!OC Jail,460.4125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Corrections operations"
+29,!CoH DPW,154.965,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Cornwall-on-Hudson public works"
+30,!KJ Vil Ops,158.805,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Village operations"
+31,!KWD,158.160,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Water department"
+32,!MH,154.055,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Highway department"
+33,!ME,159.720,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Montgomery EMS dispatch"
+34,!NW Highway,154.085,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Highway department"
+35,!PJ EMO,154.815,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Emergency management"
+36,!Tuxedo EMS,155.220,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Tuxedo EMS dispatch"
+37,!Walden DPW,155.940,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Public works operations"
+38,!WO,154.4525,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Emergency management"
+39,!WE,160.1175,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Woodbury EMS dispatch"
+40,!WI,155.700,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Town interoperability"
+41,!FO,453.0375,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Florida FD operations"
+42,!GrnwdLkFD,471.350,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Greenwood Lake fire operations"
+43,!P,453.8875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Pine Island fire operations"
+44,!Warwick FD,471.050,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Warwick fire operations"
+45,!G,467.8125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Greenville fire police"
+46,!GO,453.1875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Greenville/Johnson/Unionville ops"
+47,!NHFD FG 1,453.6375,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - New Hampton fireground 1"
+48,!B8WR,460.225,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Battalion 8 water rescue"
+49,!CF,461.250,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Cuddebackville fire operations"
+50,!HO,463.600,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Huguenot fire operations"
+51,!CFO,453.2875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Campbell Hall operations"
+52,!GFO,453.700,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Goshen fire operations"
+53,!Chester FG,476.9875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Chester fireground"
+54,!PGA,853.9875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Public safety interoperability"
+55,!OC FP,453.1375,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire police operations"
+56,!OWS,465.5375,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Water supply operations"
+57,!OSO,465.6375,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Special operations/LZ"
+58,!OCC,453.6875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - City command operations"
+59,!OETA,155.220,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS tactical alternate"
+60,!Courts,154.895,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Court operations"
+61,!GS,453.4875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Goshen secure center operations"
+62,!MFD,154.310,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Middletown fire dispatch"
+63,!MF,460.325,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire operations"
+64,!B2EF,458.3125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Battalion 2 emergency operations"
+65,!BF,460.525,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Bullville fire operations"
+66,!NF,460.4625,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Newburgh fire operations"
+67,!WPF,460.150,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - West Point fire operations"
+68,!Monroe FD,453.050,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Monroe fire operations"
+69,!EOFP,151.5575,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Eastern Orange fire paging"
+70,!KF,156.015,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Kiryas Joel fire dispatch"
+71,!W,478.9125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Woodbury fire operations"
+72,!BlmGrv Hwy,151.040,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Highway department operations"
+73,!CPC,154.025,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Police car-to-car communications"
+74,!Cornw DPW,155.115,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Public works operations"
+75,!G,156.165,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS dispatch operations"
+76,!KJ EMS,155.955,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Hatzolah EMS dispatch"
+77,!MD,155.985,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Public works operations"
+78,!NED,150.845,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Primary EMS dispatch"
+79,!PJF,154.100,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - City operations"
+80,!WD,155.820,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Public works operations"
+81,!CF,453.150,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire dispatch operations"
+82,!NF1,154.340,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire dispatch primary"
+83,!HF DPW,45.560,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Public works operations"
+84,!HE,158.940,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS operations"
+85,!OC FD Pgng,154.205,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire paging simulcast"
+86,!OC FG A,458.9875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Primary fireground channel"
+87,!OC EM FG,460.5875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Emergency fireground operations"
+88,!OC Cmd A,453.9625,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Primary command channel"
+89,!OC Cmd B,465.5875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Secondary command channel"
+90,!OC FG B,458.2625,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Alternate fireground channel"
+91,!OEP,157.450,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS paging simulcast"
+92,!OET,155.280,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS tactical operations"
+93,!NYPD CW 1,470.6875,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - NYPD citywide dispatch 1"
+94,!NETG,473.6875,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Emergency Service Unit primary tactical"
+95,!NETH,473.7125,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Emergency Service Unit secondary tactical"
+96,!FFT1,486.1125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - FDNY fireground tactical 1"
+97,!FFC1,485.1875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - FDNY fireground command 1"
+98,!FHR,483.0125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - High-rise operations repeater"
+99,!FDNY Emerg,486.7375,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - FDNY emergency operations"
+100,!NYPD IAB,470.7625,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Internal Affairs Bureau"
+101,!NVE,470.6375,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - VIP escort operations"
+102,!NYPD WTC,470.6625,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - World Trade Center patrols"
+103,!NYMAC 1,482.6875,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Metropolitan Advisory Committee 1"
+104,!NYMAC 2,482.7125,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Metropolitan Advisory Committee 2"
+105,!EBND,483.20625,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS Bronx North dispatch"
+106,!EBSD,482.76875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS Bronx South dispatch"
+107,!EBCD,482.50625,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS Brooklyn Central dispatch"
+108,!EBND,483.28125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS Brooklyn North dispatch"
+109,!EBSD,483.29375,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS Brooklyn South dispatch"
+110,!EMCD,482.98125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS Manhattan Central dispatch"
+111,!EMND,482.75625,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS Manhattan North dispatch"
+112,!EMSD,483.21875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS Manhattan South dispatch"
+113,!EQED,483.03125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS Queens East dispatch"
+114,!EQWD,482.51875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS Queens West dispatch"
+115,!ESD,482.24375,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS Staten Island dispatch"
+116,!EMS CW 1,482.16875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS citywide dispatch 1"
+117,!EMS CW 2,482.21875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS citywide dispatch 2"
+118,!NYPD CW 2,470.7125,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - NYPD citywide dispatch 2"
+119,!NYPD CW 3,470.8625,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - NYPD citywide dispatch 3"
+120,!NYPD CW 4,470.8875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - NYPD citywide dispatch 4"
+121,!NYPD SOD,470.8375,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Special Operations Division"
+122,!NT,470.8125,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Traffic Division/Highway units"
+123,!NDC,470.7375,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Detective citywide operations"
+124,!NYPD Tac A,485.6125,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Patrol tactical operations"
+125,!FBD,482.00625,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - FDNY Bronx dispatch"
+126,!FBD,482.01875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - FDNY Brooklyn dispatch"
+127,!FMD,482.10625,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - FDNY Manhattan dispatch"
+128,!FQD,482.03125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - FDNY Queens dispatch"
+129,!FSD,482.04375,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - FDNY Staten Island dispatch"
+130,!FDNY CW1,482.23125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - FDNY citywide dispatch 1"
+131,!FDNY CW2,483.38125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - FDNY citywide dispatch 2"
+132,!T,158.760,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Sheriff primary dispatch"
+133,!TF4,46.320,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire tactical operations"
+134,!TF5,46.260,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire tactical operations"
+135,!TF6,46.420,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire tactical operations"
+136,!TF1,453.0375,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fireground command operations"
+137,!TF2,453.0875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fireground command operations"
+138,!TF3,453.1125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fireground command operations"
+139,!TF4,453.8875,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fireground command operations"
+140,!TF1,154.100,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County fire operations"
+141,!TF2,154.145,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County fire operations"
+142,!TF3,154.295,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County fire operations"
+143,!WF1,156.0675,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Waverly-Barton fire tactical"
+144,!WF2,159.0075,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Waverly-Barton fire tactical"
+145,!TS3,155.520,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Sheriff/Owego PD channel"
+146,!TS4,154.725,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Waverly PD dispatch"
+147,!TF1,46.200,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire dispatch primary"
+148,!TF2,46.220,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire mutual aid"
+149,!TF3,46.280,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire police operations"
+150,!TFD,453.350,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire dispatch rebroadcast"
+151,!Candor Amb,152.315,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Candor ambulance operations"
+152,!TiogaCo PS,154.4075,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Public safety tactical"
+153,!T,156.1725,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Public safety tactical"
+154,!TH,159.120,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County highway department"
+155,!DCSO Disp,155.640,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Sheriff primary dispatch"
+156,!DHT,460.525,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Hazardous Materials Team"
+157,!DFP,46.360,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire pager channel"
+158,!D9TH,155.280,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - 911 to hospital comms"
+159,!DCCS Ch 1,154.755,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Court security operations"
+160,!DCCS Ch 2,155.310,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Court security operations"
+161,!DP,151.325,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Poughkeepsie/Beacon courts"
+162,!RCM,464.050,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Red Cross Millerton ops"
+163,!RCH,463.450,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Red Cross Highland ops"
+164,!DM9A,462.950,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Med-9 ALS coordination"
+165,!DFI,460.600,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire investigation division"
+166,!DC,159.240,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Sheriff car-to-car ops"
+167,!DTF,465.575,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire training operations"
+168,!DC FG 5/6,453.050,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County fireground ops 5/6"
+169,!DC FG 7/8,453.450,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County fireground ops 7/8"
+170,!DC FG 9/10,453.625,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County fireground ops 9/10"
+171,!DFTA,453.600,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County tactical A"
+172,!DFTB,453.825,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County tactical B"
+173,!DFP,453.9125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County fire police ops"
+174,!DER MACC 1,154.115,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Multi-agency command 1"
+175,!DER MACC 2,151.070,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Multi-agency command 2"
+176,!DTI,151.340,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Sheriff tactical Illinois"
+177,!DTS,155.835,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Sheriff tactical Silver"
+178,!D9D,155.415,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County 911 dispatch"
+179,!DC FD Disp,453.900,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire dispatch primary"
+180,!DFR,453.925,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire response channel"
+181,!DFC,453.800,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire command operations"
+182,!Beacn Fire,460.400,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Beacon fire operations"
+183,!Beacon EMS,452.8125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Beacon EMS operations"
+184,!Beacn Hwy,453.325,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Beacon highway department"
+185,!DEC1,155.745,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS control primary"
+186,!DEC2,155.760,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS control secondary"
+187,!U9D,155.025,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Primary 911 dispatch"
+188,!PEF,154.265,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Port Ewen fire operations"
+189,!EF,154.295,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - East Kingston fire ops"
+190,!U1,154.310,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Ulster Hose primary ops"
+191,!U2,154.400,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Ulster Hose secondary ops"
+192,!HF,159.3075,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Hurley fire operations"
+193,!WHF,159.180,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - West Hurley fire operations"
+194,!EFO,151.415,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Esopus fire operations"
+195,!EEO,155.160,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Esopus EMS operations"
+196,!TD,151.010,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Town of Ulster public works"
+197,!Hurley DPW,155.955,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Hurley public works"
+198,!UC FG Ch 3,46.300,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire tactical operations"
+199,!UC FG Ch 4,46.280,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire tactical operations"
+200,!UC FG Ch 5,46.320,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire tactical operations"
+201,!UC FG Ch 6,46.280,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire tactical operations"
+202,!UC FG Ch 7,46.320,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire tactical operations"
+203,!EE,155.295,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Empress EMS dispatch"
+204,!ET1,468.0125,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Empress tactical 1"
+205,!ET2,468.0375,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Empress tactical 2"
+206,!ET3,468.0625,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Empress tactical 3"
+207,!UC 911 Ops,155.670,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - 911 operations channel"
+208,!UCSO Disp,155.9325,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Sheriff dispatch"
+209,!UC,151.235,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Sheriff car-to-car ops"
+210,!K,154.235,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Kingston fire alerting"
+211,!UFD,155.220,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire/EMS dispatch"
+212,!UFC,46.460,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire command/response"
+213,!UC EMS Ops,155.175,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - EMS operations"
+214,!URK,153.545,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Resource Recovery Agency ops"
+215,!D9P,156.030,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County 911 polling system"
+216,!FF,453.475,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Franklin fire operations"
+217,!GG FD Ops,153.215,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Grand Gorge fire operations"
+218,!Hobart FD,159.3825,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Hobart fire alerts/operations"
+219,!M-H FD Ops,154.1975,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Middletown-Hardenberg fire ops"
+220,!PCF,453.425,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Pindars Corners fire dispatch"
+221,!SR,154.9725,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Stamford RIC operations"
+222,!SF,155.0025,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Stamford fire police ops"
+223,!T,453.150,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Trout Creek fire operations"
+224,!BFD,159.120,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Bovina fire dispatch"
+225,!BFO,159.2025,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Bovina fire operations"
+226,!Roxbury FG,154.600,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Roxbury fireground operations"
+227,!DC FG 1,453.925,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County fireground 1"
+228,!DC FG 2,460.625,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County fireground 2"
+229,!DC FG 3,458.925,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County fireground 3"
+230,!DH,33.100,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - County highway department"
+231,!Sidney FD,453.600,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Sidney fire operations"
+232,!DFO,155.8425,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Delhi fire operations"
+233,!Walton FD,159.1725,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Walton fire operations"
+234,!SO,152.4425,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Stamford fire operations"
+235,!SF,154.3325,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Stamford fireground"
+236,!AFO,155.0175,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Andes fire operations"
+237,!DO,154.3775,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Downsville fire operations"
+238,!DFP,155.1375,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - County fire/EMS paging"
+239,!DFR,453.5375,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire/EMS response channel"
+240,!DF,46.060,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire dispatch/command (911 transmit)"
+241,!DelwrCO FD,46.220,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire car-to-car operations"
+242,!DelwrCo FG,46.300,off,0.000,None,,,,,FM,5.00,,"""LISTEN ONLY - Fire fireground operations"
+243,!DFT2,460.150,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire tactical 2 operations"
+244,!DFT3,453.5625,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire tactical 3 operations"
+245,!DFT4,460.4625,off,0.000,None,,,,,NFM,5.00,,"""LISTEN ONLY - Fire tactical 4 operations"
+246,MHV600,462.600,-,5.0,None,,,,,FM,5.00,,"""Permission required for transmit"
+247,TRC,462.625,-,5.0,None,,,,,FM,5.00,,"""Paid membership required for transmit"
+248,TRS,462.625,-,5.0,None,,,,,FM,5.00,,"""Paid membership required for transmit"
+249,Upstate NY,462.600,-,5.0,None,,,,,FM,5.00,,"""Open system"
+250,ON,462.700,-,5.0,None,,,,,FM,5.00,,"""REACT members only"
+251,Sussex 725,462.725,-,5.0,None,,,,,FM,5.00,,"""Open system"
+252,Vernon 550,462.550,-,5.0,None,,,,,FM,5.00,,"""Open system"
+253,W5,462.575,-,5.0,None,,,,,FM,5.00,,"""Open system"
+254,VCALL10,155.7525,off,0.000,None,,,,,NFM,5.00,,"""National VHF calling channel"
+255,VFIRE22,154.265,off,0.000,None,,,,,NFM,5.00,,"""Emergency fire operations"
+256,VFIRE23,154.295,off,0.000,None,,,,,NFM,5.00,,"""Emergency fire operations"
+257,VMED29,155.3475,off,0.000,None,,,,,NFM,5.00,,Mass casualty incident operations
+258,VSAR16,155.160,off,0.000,None,,,,,NFM,5.00,,Search and Rescue operations
+259,UTAC43,453.8625,off,0.000,None,,,,,NFM,5.00,,Emergency tactical operations
+260,MED-9,462.950,off,0.000,None,,,,,NFM,5.00,,Hospital/EMS coordination (primary)
+261,MED-10,462.975,off,0.000,None,,,,,NFM,5.00,,Hospital/EMS coordination (secondary)
+262,MED-1,463.000,off,0.000,None,,,,,NFM,5.00,,Hospital/EMS tactical operations
+263,MED-2,463.025,off,0.000,None,,,,,NFM,5.00,,Hospital/EMS tactical operations
+264,8TAC93,852.5125,off,0.000,None,,,,,FM,5.00,,Emergency tactical operations
+265,8TAC94,853.0125,off,0.000,None,,,,,FM,5.00,,Emergency tactical operations
+266,NC1/IR5,169.5375,off,0.000,None,,,,,NFM,5.00,,Federal incident response calling
+267,IR1/IR6,170.0125,off,0.000,None,,,,,NFM,5.00,,Federal incident command
+268,IR2/IR7,170.4125,off,0.000,None,,,,,NFM,5.00,,Medical evacuation control
+269,VTAC11,151.1375,off,0.000,None,,,,,NFM,5.00,,"""VHF tactical operations"
+270,VTAC12,154.4525,off,0.000,None,,,,,NFM,5.00,,"""VHF tactical operations"
+271,VFIRE21,154.280,off,0.000,None,,,,,NFM,5.00,,Common fire mutual aid channel
+272,VMED28,155.340,off,0.000,None,,,,,NFM,5.00,,Primary EMS mutual aid channel
+273,VLAW31,155.475,off,0.000,None,,,,,NFM,5.00,,Primary law enforcement mutual aid
+274,UCALL40,453.2125,off,0.000,None,,,,,NFM,5.00,,National UHF calling channel
+275,UTAC41,453.4625,off,0.000,None,,,,,NFM,5.00,,UHF tactical operations
+276,UTAC42,453.7125,off,0.000,None,,,,,NFM,5.00,,UHF tactical operations
+277,8CALL90,851.0125,off,0.000,None,,,,,FM,5.00,,National 800MHz calling channel
+278,8TAC91,851.5125,off,0.000,None,,,,,FM,5.00,,800MHz tactical operations
+279,8TAC92,852.0125,off,0.000,None,,,,,FM,5.00,,800MHz tactical operations
+280,FEMA 1/2,406.2625,off,0.000,None,,,,,NFM,5.00,,"""FEMA primary operations"
+281,IR1/IR6,170.0125,off,0.000,None,,,,,NFM,5.00,,Federal incident command post operations
+282,IR2/IR7,170.4125,off,0.000,None,,,,,NFM,5.00,,Medical evacuation coordination
+283,IR3/IR8,170.6875,off,0.000,None,,,,,NFM,5.00,,Logistics and supply coordination
+284,IR4/IR9,173.0375,off,0.000,None,,,,,NFM,5.00,,Interagency convoy operations
+285,7AG58,769.13125,off,0.000,None,,,,,NFM,5.00,,Air operations coordination primary
+286,7AG88,774.61875,off,0.000,None,,,,,NFM,5.00,,Landing zone coordination
+287,7FIRE63,769.89375,off,0.000,None,,,,,NFM,5.00,,Federal-Fire coordination primary
+288,7MED65,769.39375,off,0.000,None,,,,,NFM,5.00,,Federal-EMS coordination primary
+289,7TAC73,774.10625,off,0.000,None,,,,,NFM,5.00,,Federal incident tactical operations
+290,7MOB59,770.89375,off,0.000,None,,,,,NFM,5.00,,Mobile command post operations
+291,VLAW31,155.475,off,0.000,None,,,,,NFM,5.00,,Federal to local law enforcement coordination
+292,MED-9,462.950,off,0.000,None,,,,,NFM,5.00,,Hospital/EMS mass casualty coordination
+293,700 DTS 5,774.51875,off,0.000,None,,,,,NFM,5.00,,Deployable trunked system control
+294,700 DTS 6,774.86875,off,0.000,None,,,,,NFM,5.00,,Deployable trunked system tactical
+295,MERS 9/10,410.8625,off,0.000,None,,,,,NFM,5.00,,Mobile Emergency Response major incidents
+296,MERS 11/12,407.450,off,0.000,None,,,,,NFM,5.00,,Mobile Emergency Response command ops
+297,MERS 13/14,408.0625,off,0.000,None,,,,,NFM,5.00,,Mobile Emergency Response tactical
+298,NDMS 5/6,407.4625,off,0.000,None,,,,,NFM,5.00,,Medical disaster response tactical
+299,NDMS 7/8,409.075,off,0.000,None,,,,,NFM,5.00,,Medical disaster response command
+300,U5D,409.6625,off,0.000,None,,,,,NFM,5.00,,USAR digital command operations
+301,U7D,409.8625,off,0.000,None,,,,,NFM,5.00,,USAR digital tactical operations
+302,U5A,409.6625,off,0.000,None,,,,,NFM,5.00,,USAR analog command operations
+303,U7A,409.8625,off,0.000,None,,,,,NFM,5.00,,USAR analog tactical operations
+304,FEMA 3/4,407.0625,off,0.000,None,,,,,NFM,5.00,,"""FEMA tactical operations"
+305,FEMA 5/6,407.6625,off,0.000,None,,,,,NFM,5.00,,"""FEMA command operations"
+306,MERS 1,412.825,off,0.000,None,,,,,NFM,5.00,,Mobile Emergency Response Support 1
+307,MERS 2,412.850,off,0.000,None,,,,,NFM,5.00,,Mobile Emergency Response Support 2
+308,MERS 3,412.8375,off,0.000,None,,,,,NFM,5.00,,Mobile Emergency Response Support 3
+309,DMAT,409.000,off,0.000,None,,,,,NFM,5.00,,Disaster Medical Assistance Team ops
+310,NDMS 1/2,406.8625,off,0.000,None,,,,,NFM,5.00,,National Disaster Medical System primary
+311,U1D,408.8625,off,0.000,None,,,,,NFM,5.00,,Urban Search & Rescue digital primary
+312,U3D,409.2625,off,0.000,None,,,,,NFM,5.00,,Urban Search & Rescue digital tactical
+313,U1A,408.8625,off,0.000,None,,,,,NFM,5.00,,Urban Search & Rescue analog primary
+314,U3A,409.2625,off,0.000,None,,,,,NFM,5.00,,Urban Search & Rescue analog tactical
+315,RC1,47.420,off,0.000,None,,,,,FM,5.00,,Nationwide Red Cross primary operations
+316,GMRS 15,462.5625,off,0.000,None,,,,,FM,5.00,,"""Standard GMRS/FRS simplex"
+317,GMRS 16,462.5875,off,0.000,None,,,,,FM,5.00,,"""Standard GMRS/FRS simplex"
+318,GMRS 17,462.6125,off,0.000,None,,,,,FM,5.00,,"""Standard GMRS/FRS simplex"
+319,GMRS 18,462.6375,off,0.000,None,,,,,FM,5.00,,"""Standard GMRS/FRS simplex"
+320,GMRS 19,462.6625,off,0.000,None,,,,,FM,5.00,,"""Standard GMRS/FRS simplex"
+321,GMRS 20,462.6875,off,0.000,None,,,,,FM,5.00,,"""Standard GMRS/FRS simplex"
+322,GMRS 21,462.7125,off,0.000,None,,,,,FM,5.00,,"""Standard GMRS/FRS simplex"
+323,RC2,47.500,off,0.000,None,,,,,FM,5.00,,Nationwide Red Cross secondary operations
+324,GMRS 1,462.550,-,5.0,None,,,,,FM,5.00,,Standard GMRS repeater channel
+325,GMRS 2,462.575,-,5.0,None,,,,,FM,5.00,,Standard GMRS repeater channel
+326,GMRS 3,462.600,-,5.0,None,,,,,FM,5.00,,Standard GMRS repeater channel
+327,GMRS 4,462.625,-,5.0,None,,,,,FM,5.00,,Standard GMRS repeater channel
+328,GMRS 5,462.650,-,5.0,None,,,,,FM,5.00,,Standard GMRS repeater channel
+329,GMRS 6,462.675,-,5.0,None,,,,,FM,5.00,,Standard GMRS repeater channel
+330,GMRS 7,462.700,-,5.0,None,,,,,FM,5.00,,Standard GMRS repeater channel
+331,GMRS 8,462.725,-,5.0,None,,,,,FM,5.00,,Standard GMRS repeater channel
+332,MURS 1,151.820,off,0.000,None,,,,,NFM,5.00,,"""MURS green dot channel"
+333,FRS 8,467.5625,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 8"
+334,FRS 9,467.5875,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 9"
+335,FRS 10,467.6125,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 10"
+336,FRS 11,467.6375,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 11"
+337,FRS 12,467.6625,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 12"
+338,FRS 13,467.6875,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 13"
+339,FRS 14,467.7125,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 14"
+340,FRS 15,462.550,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 15 (shared with GMRS)"
+341,FRS 16,462.575,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 16 (shared with GMRS)"
+342,FRS 17,462.600,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 17 (shared with GMRS)"
+343,FRS 18,462.625,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 18 (shared with GMRS)"
+344,FRS 19,462.650,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 19 (shared with GMRS)"
+345,FRS 20,462.675,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 20 (shared with GMRS)"
+346,FRS 21,462.700,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 21 (shared with GMRS)"
+347,FRS 22,462.725,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 22 (shared with GMRS)"
+348,MURS 2,151.880,off,0.000,None,,,,,NFM,5.00,,"""MURS standard channel"
+349,MURS 3,151.940,off,0.000,None,,,,,NFM,5.00,,"""MURS standard channel"
+350,MURS 4,154.570,off,0.000,None,,,,,FM,5.00,,"""MURS blue dot channel"
+351,MURS 5,154.600,off,0.000,None,,,,,FM,5.00,,"""MURS green dot channel"
+352,FRS 1,462.5625,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 1"
+353,FRS 2,462.5875,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 2"
+354,FRS 3,462.6125,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 3"
+355,FRS 4,462.6375,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 4"
+356,FRS 5,462.6625,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 5"
+357,FRS 6,462.6875,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 6"
+358,FRS 7,462.7125,off,0.000,None,,,,,NFM,5.00,,"""FRS channel 7"
