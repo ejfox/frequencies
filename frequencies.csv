@@ -1,1 +1,347 @@
-Region,Location,Name,Frequency,Duplex,Offset,Tone,Mode,Type,Tag,Notes,LastVerified,Source
+Region,Location,Name,Frequency,Duplex,Offset,Tone,Mode,Type,Tag,Notes,LastVerified,SourceHudson Valley Core,Beacon,Mt. Beacon Amateur Radio Club K2ROB/R,53.310,Duplex,+1.0,114.8,FM,Amateur,Repeater,"Located on Mt. Beacon",2024-11-26,https://example.com
+Hudson Valley Core,Millbrook,Mt. Beacon Amateur Radio Club N2EYH/R,146.895,Duplex,+0.6,100.0,FM,Amateur,Repeater,"Located in Millbrook",2024-11-26,https://example.com
+Hudson Valley Core,Beacon,Mt. Beacon Amateur Radio Club N2FZC/R,146.970,Duplex,-0.6,100.0,FM,Amateur,Repeater,"Transmitter and receiver on Mt. Beacon",2024-11-26,https://example.com
+Hudson Valley Core,Highland,Mt. Beacon Amateur Radio Club N2OXV/R,147.045,Duplex,+0.6,100.0,FM,Amateur,Repeater,"Located in Highland",2024-11-26,https://example.com
+Hudson Valley Core,Beacon,Mt. Beacon Amateur Radio Club W2GIO/R,223.920,Duplex,+1.6,100.0,FM,Amateur,Repeater,"Located on Mt. Beacon",2024-11-26,https://example.com
+Hudson Valley Core,Beacon,Mt. Beacon Amateur Radio Club WA2GZW/R,449.575,Duplex,+5.0,100.0,FM,Amateur,Repeater,"Located on Mt. Beacon",2024-11-26,https://example.com
+Hudson Valley Core,Beacon,Mt. Beacon Amateur Radio Club N2HPA/R,921.200,Duplex,+12.0,100.0,FM,Amateur,Repeater,"Located on Mt. Beacon",2024-11-26,https://example.com
+Hudson Valley Core,Clove,Mt. Beacon Amateur Radio Club N2DXL/R,449.975,Duplex,+5.0,88.5,DMR,Amateur,Repeater,"DMR & FM modes; Color Code 11, Time Slot 1, Group Call 9975; standalone repeater",2024-11-26,https://example.com
+Hudson Valley Core,Highland,Mt. Beacon Amateur Radio Club KC2OBW/R,440.3125,Duplex,-5.0,,DMR,Amateur,Repeater,"DMR mode; Color Code 11, Time Slot 1, Group Call 3125; standalone repeater",2024-11-26,https://example.comOrange County,Orange County,OC Jail,460.4125,Simplex,,71.9 PL,FMN,Corrections,Jail operations,Used by Sheriff,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC FD Paging,154.205,Simplex,,123.0 PL,FMN,Fire Dispatch,Fire Paging,Paging for fire services,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC FG A,458.9875,Simplex,,110.9 PL,FMN,Fire-Tac,Fireground A,Primary fireground channel,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC EM FG,460.5875,Simplex,,162.2 PL,FMN,Fire-Tac,Emergency Fireground,Alternate fireground channel,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC Cmd A,453.9625,Simplex,,123.0 PL,FMN,Fire-Tac,Command A,Primary command channel,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC Cmd B,465.5875,Simplex,,516 DPL,FMN,Fire-Tac,Command B,Secondary command channel,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC FG B,458.2625,Simplex,,110.9 PL,FMN,Fire-Tac,Fireground B,Alternate fireground channel,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC EMS Paging,157.450,Simplex,,136.5 PL,FMN,EMS Dispatch,EMS Paging,Simulcast EMS paging,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC EMS Tact,155.280,Simplex,,100.0 PL,FMN,EMS-Tac,EMS Tactical,Tactical operations channel,2024-11-26,https://radioreference.com
+Orange County,Orange County,PS Ground A,853.9875,Simplex,,156.7 PL,FMN,Interop,Public Safety Ground A,Public safety interop channel,2024-11-26,https://radioreference.com
+Orange County,Blooming Grove,BlmGrv Highway,151.040,Simplex,,100.0 PL,FMN,Public Works,Highway Dept,Highway department communications,2024-11-26,https://radioreference.com
+Orange County,Chester,Chester PD C-C,154.025,Duplex,,CC 1 DMR,Law Talk,Police Car to Car,DMR with TG 303,2024-11-26,https://radioreference.com
+Orange County,Cornwall,Cornwall DPW,155.115,Simplex,,88.5 PL,FMN,Public Works,DPW,Public works communications,2024-11-26,https://radioreference.com
+Orange County,Greenwood Lake,GrnwdLkEMSDp,156.165,Simplex,,94.8 PL,FMN,EMS Dispatch,EMS Dispatch,Dispatch for Greenwood Lake EMS,2024-11-26,https://radioreference.com
+Orange County,Kiryas Joel,KJ EMS,155.955,Simplex,,110.9 PL,FMN,EMS Dispatch,Hatzolah EMS,EMS dispatch for Kiryas Joel,2024-11-26,https://radioreference.com
+Orange County,Maybrook,Maybrook DPW,155.985,Simplex,,123.0 PL,FMN,Public Works,DPW,Public works communications,2024-11-26,https://radioreference.com
+Orange County,New Windsor,NW EMS Disp,150.845,Simplex,,141.3 PL,FMN,EMS Dispatch,EMS Dispatch,Primary EMS dispatch,2024-11-26,https://radioreference.com
+Orange County,Port Jervis,Port Jervis FD,154.100,Simplex,,127.3 PL,FMN,Public Works,Operations,City buses and DPW communications,2024-11-26,https://radioreference.com
+Orange County,Washingtonville,Washingtonville DPW,155.820,Simplex,,210.7 PL,FMN,Public Works,DPW,Public works communications,2024-11-26,https://radioreference.comOrange County,Orange County,OC Jail,460.4125,Simplex,,71.9 PL,FMN,Corrections,Jail operations,"LISTEN ONLY - Corrections operations, no transmit",2024-11-26,radioreference.com
+Orange County,Cornwall-on-Hudson,CoH DPW,154.965,Simplex,,CSQ,FMN,Public Works,DPW,"LISTEN ONLY - Cornwall-on-Hudson public works, no transmit",2024-11-26,radioreference.com
+Orange County,Kiryas Joel,KJ Vil Ops,158.805,Simplex,,455 DPL,FMN,Public Works,Village Ops,"LISTEN ONLY - Village operations, no transmit",2024-11-26,radioreference.com
+Orange County,Kiryas Joel,KJ Water Dep,158.160,Simplex,,110.9 PL,FMN,Utilities,Water,"LISTEN ONLY - Water department, no transmit",2024-11-26,radioreference.com
+Orange County,Minisink,Minisink Hwy,154.055,Simplex,,67.0 PL,FMN,Public Works,Highway,"LISTEN ONLY - Highway department, no transmit",2024-11-26,radioreference.com
+Orange County,Montgomery,Montgmry EMS,159.720,Simplex,,110.9 PL,FMN,EMS Dispatch,EMS,"LISTEN ONLY - Montgomery EMS dispatch, no transmit",2024-11-26,radioreference.com
+Orange County,New Windsor,NW Highway,154.085,Simplex,,136.5 PL,FMN,Public Works,Highway,"LISTEN ONLY - Highway department, no transmit",2024-11-26,radioreference.com
+Orange County,Port Jervis,PJ EMO,154.815,Simplex,,CSQ,FMN,Emergency Ops,Emergency Mgmt,"LISTEN ONLY - Emergency management, no transmit",2024-11-26,radioreference.com
+Orange County,Tuxedo,Tuxedo EMS,155.220,Simplex,,CSQ,FMN,EMS Dispatch,EMS,"LISTEN ONLY - Tuxedo EMS dispatch, no transmit",2024-11-26,radioreference.com
+Orange County,Walden,Walden DPW,155.940,Simplex,,CSQ,FMN,Public Works,DPW,"LISTEN ONLY - Public works operations, no transmit",2024-11-26,radioreference.com
+Orange County,Wallkill,Wallkill OEM,154.4525,Simplex,,606 DPL,FMN,Emergency Ops,Emergency Mgmt,"LISTEN ONLY - Emergency management, no transmit",2024-11-26,radioreference.com
+Orange County,Woodbury,Woodbury EMS,160.1175,Simplex,,251 DPL,FMN,EMS Dispatch,EMS,"LISTEN ONLY - Woodbury EMS dispatch, no transmit",2024-11-26,radioreference.com
+Orange County,Woodbury,Woodbury I/O,155.700,Simplex,,136.5 PL,FMN,Interop,Town Interop,"LISTEN ONLY - Town interoperability, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 6,Florida Ops,453.0375,Simplex,,173.8 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Florida FD operations, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 6,GrnwdLkFD,471.350,Simplex,,110.9 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Greenwood Lake fire operations, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 6,PineIslandFD,453.8875,Simplex,,151.4 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Pine Island fire operations, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 6,Warwick FD,471.050,Simplex,,343 DPL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Warwick fire operations, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 7,GreenvilleFP,467.8125,Simplex,,703 DPL,FMN,Fire-Talk,Fire Police,"LISTEN ONLY - Greenville fire police, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 7,Gv/Js/Uv Ops,453.1875,Simplex,,155 DPL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Greenville/Johnson/Unionville ops, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 7,NHFD FG 1,453.6375,Simplex,,123.0 PL,FMN,Fire-Tac,Fireground,"LISTEN ONLY - New Hampton fireground 1, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 8,Batt 8 Water Rsq,460.225,Simplex,,91.5 PL,FMN,Fire-Tac,Water Rescue,"LISTEN ONLY - Battalion 8 water rescue, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 8,Cudbckvle FD,461.250,Simplex,,413 DPL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Cuddebackville fire operations, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 8,Huguenot Ops,463.600,Simplex,,343 DPL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Huguenot fire operations, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 9,CampHall FD Ops,453.2875,Simplex,,464 DPL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Campbell Hall operations, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 9,Goshen FD Ops,453.700,Simplex,,152 DPL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Goshen fire operations, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 9,Chester FG,476.9875,Simplex,,606 DPL,FMN,Fire-Tac,Fireground,"LISTEN ONLY - Chester fireground, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,PS Ground A,853.9875,Simplex,,156.7 PL,FMN,Interop,Public Safety,"LISTEN ONLY - Public safety interoperability, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,OC FP,453.1375,Simplex,,110.9 PL,FMN,Fire-Tac,Fire Police,"LISTEN ONLY - Fire police operations, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,OC Wtr Suply,465.5375,Simplex,,516 DPL,FMN,Fire-Tac,Water Supply,"LISTEN ONLY - Water supply operations, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,OC Spec Ops,465.6375,Simplex,,516 DPL,FMN,Fire-Tac,Special Ops,"LISTEN ONLY - Special operations/LZ, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,OC City Cmd,453.6875,Simplex,,127.3 PL,FMN,Fire-Tac,City Command,"LISTEN ONLY - City command operations, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,OC EMS Tact Alt,155.220,Simplex,,CSQ,FMN,EMS-Tac,Tactical,"LISTEN ONLY - EMS tactical alternate, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,Courts,154.895,Simplex,,CSQ,FMN,Law Tac,Courts,"LISTEN ONLY - Court operations, no transmit",2024-11-26,radioreference.com
+Orange County,State Corrections,Goshen Secure,453.4875,Simplex,,023 DPL,FMN,Corrections,Secure Center,"LISTEN ONLY - Goshen secure center operations, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 1,Midltwn FD Disp,154.310,Simplex,,77.0 PL,FMN,Fire Dispatch,Fire Dispatch,"LISTEN ONLY - Middletown fire dispatch, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 1,Middletown FD,460.325,Simplex,,114.8 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Fire operations, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 2,Batt 2 EM FG,458.3125,Simplex,,192.8 PL,FMN,Fire-Tac,Emergency Fireground,"LISTEN ONLY - Battalion 2 emergency operations, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 2,Bullville FD,460.525,Simplex,,179.9 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Bullville fire operations, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 3,Newburgh FD,460.4625,Simplex,,351 DPL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Newburgh fire operations, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 4,West Point FD,460.150,Simplex,,203.5 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - West Point fire operations, no transmit",2024-11-26,radioreference.com
+Orange County,Battalion 5,Monroe FD,453.050,Simplex,,91.5 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Monroe fire operations, no transmit",2024-11-26,radioreference.com
+Orange County,Eastern Orange,E OC Fire Paging,151.5575,Simplex,,464 DPL,FMN,Fire Dispatch,Fire Paging,"LISTEN ONLY - Eastern Orange fire paging, no transmit",2024-11-26,radioreference.com
+Orange County,Kiryas Joel,KiryasJl FD1,156.015,Simplex,,546 DPL,FMN,Fire Dispatch,Fire Dispatch,"LISTEN ONLY - Kiryas Joel fire dispatch, no transmit",2024-11-26,radioreference.com
+Orange County,Woodbury,WoodbryFDOps,478.9125,Simplex,,051 DPL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Woodbury fire operations, no transmit",2024-11-26,radioreference.com
+Orange County,Blooming Grove,BlmGrv Highway,151.040,Simplex,,100.0 PL,FMN,Public Works,Highway Dept,"LISTEN ONLY - Highway department operations, no transmit",2024-11-26,radioreference.com
+Orange County,Chester,Chester PD C-C,154.025,Simplex,,CC 1 DMR,DMR,Law Talk,Police Car to Car,"LISTEN ONLY - Police car-to-car communications, no transmit",2024-11-26,radioreference.com
+Orange County,Cornwall,Cornwall DPW,155.115,Simplex,,88.5 PL,FMN,Public Works,DPW,"LISTEN ONLY - Public works operations, no transmit",2024-11-26,radioreference.com
+Orange County,Greenwood Lake,GrnwdLkEMSDp,156.165,Simplex,,94.8 PL,FMN,EMS Dispatch,EMS Dispatch,"LISTEN ONLY - EMS dispatch operations, no transmit",2024-11-26,radioreference.com
+Orange County,Kiryas Joel,KJ EMS,155.955,Simplex,,110.9 PL,FMN,EMS Dispatch,Hatzolah EMS,"LISTEN ONLY - Hatzolah EMS dispatch, no transmit",2024-11-26,radioreference.com
+Orange County,Maybrook,Maybrook DPW,155.985,Simplex,,123.0 PL,FMN,Public Works,DPW,"LISTEN ONLY - Public works operations, no transmit",2024-11-26,radioreference.com
+Orange County,New Windsor,NW EMS Disp,150.845,Simplex,,141.3 PL,FMN,EMS Dispatch,EMS Dispatch,"LISTEN ONLY - Primary EMS dispatch, no transmit",2024-11-26,radioreference.com
+Orange County,Port Jervis,Port Jervis FD,154.100,Simplex,,127.3 PL,FMN,Public Works,Operations,"LISTEN ONLY - City operations, no transmit",2024-11-26,radioreference.com
+Orange County,Washingtonville,Washingtonville DPW,155.820,Simplex,,210.7 PL,FMN,Public Works,DPW,"LISTEN ONLY - Public works operations, no transmit",2024-11-26,radioreference.com
+Orange County,Cronomer Valley,Cronomer FD,453.150,Simplex,,100.0 PL,FMN,Fire Dispatch,Fire Dispatch,"LISTEN ONLY - Fire dispatch operations, no transmit",2024-11-26,radioreference.com
+Orange County,Newburgh,Newbrg FD 1,154.340,Simplex,,203.5 PL,FMN,Fire Dispatch,Fire Dispatch,"LISTEN ONLY - Fire dispatch primary, no transmit",2024-11-26,radioreference.com
+Orange County,Highland Falls,HF DPW,45.560,Simplex,,118.8 PL,FM,Public Works,Public Works,"LISTEN ONLY - Public works operations, no transmit",2024-11-26,radioreference.com
+Orange County,Highlands,Hghlands EMS,158.940,Simplex,,151.4 PL,FMN,EMS Dispatch,EMS,"LISTEN ONLY - EMS operations, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,OC FD Paging,154.205,Simplex,,123.0 PL,FMN,Fire Dispatch,Fire Paging,"LISTEN ONLY - Fire paging simulcast, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,OC FG A,458.9875,Simplex,,110.9 PL,FMN,Fire-Tac,Fireground A,"LISTEN ONLY - Primary fireground channel, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,OC EM FG,460.5875,Simplex,,162.2 PL,FMN,Fire-Tac,Emergency Fireground,"LISTEN ONLY - Emergency fireground operations, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,OC Cmd A,453.9625,Simplex,,123.0 PL,FMN,Fire-Tac,Command A,"LISTEN ONLY - Primary command channel, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,OC Cmd B,465.5875,Simplex,,516 DPL,FMN,Fire-Tac,Command B,"LISTEN ONLY - Secondary command channel, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,OC FG B,458.2625,Simplex,,110.9 PL,FMN,Fire-Tac,Fireground B,"LISTEN ONLY - Alternate fireground channel, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,OC EMS Paging,157.450,Simplex,,136.5 PL,FMN,EMS Dispatch,EMS Paging,"LISTEN ONLY - EMS paging simulcast, no transmit",2024-11-26,radioreference.com
+Orange County,Orange County,OC EMS Tact,155.280,Simplex,,100.0 PL,FMN,EMS-Tac,EMS Tactical,"LISTEN ONLY - EMS tactical operations, no transmit",2024-11-26,radioreference.comNYC,Citywide,NYPD CW 1,470.6875,Simplex,,100.0 PL,FM,Law Dispatch,Citywide 1,"LISTEN ONLY - NYPD citywide dispatch 1, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,NYPD ESU Tac G,473.6875,Simplex,,210.7 PL,FM,Law Tac,ESU Primary,"LISTEN ONLY - Emergency Service Unit primary tactical, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,NYPD ESU Tac H,473.7125,Simplex,,218.1 PL,FM,Law Tac,ESU Secondary,"LISTEN ONLY - Emergency Service Unit secondary tactical, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,FDNY FG Tac 1,486.1125,Simplex,,CSQ,FMN,Fire-Tac,Tactical 1,"LISTEN ONLY - FDNY fireground tactical 1, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,FDNY FG Cmd 1,485.1875,Simplex,,CSQ,FMN,Fire-Tac,Command 1,"LISTEN ONLY - FDNY fireground command 1, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,FDNY Hi-Rise Rpt,483.0125,Simplex,,173.8 PL,FMN,Fire-Tac,Hi-Rise,"LISTEN ONLY - High-rise operations repeater, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,FDNY Emergency,486.7375,Simplex,,CSQ,FMN,Fire-Tac,Emergency,"LISTEN ONLY - FDNY emergency operations, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,NYPD IAB,470.7625,Simplex,,EF2 NAC,P25E,Law Tac,Internal Affairs,"LISTEN ONLY - Internal Affairs Bureau, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,NYPD VIP Escort,470.6375,Simplex,,EF1 NAC,P25E,Law Tac,VIP,"LISTEN ONLY - VIP escort operations, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,NYPD WTC,470.6625,Simplex,,167.9 PL,FM,Law Tac,World Trade,"LISTEN ONLY - World Trade Center patrols, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,NYMAC 1,482.6875,Simplex,,110.9 PL,FM,Interop,Interop 1,"LISTEN ONLY - Metropolitan Advisory Committee 1, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,NYMAC 2,482.7125,Simplex,,123.0 PL,FM,Interop,Interop 2,"LISTEN ONLY - Metropolitan Advisory Committee 2, no transmit",2024-11-26,radioreference.com
+NYC,Bronx,EMS BX N Disp,483.20625,Simplex,,167.9 PL,FMN,EMS Dispatch,Bronx North,"LISTEN ONLY - EMS Bronx North dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Bronx,EMS BX S Disp,482.76875,Simplex,,173.8 PL,FMN,EMS Dispatch,Bronx South,"LISTEN ONLY - EMS Bronx South dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Brooklyn,EMS BK C Disp,482.50625,Simplex,,186.2 PL,FMN,EMS Dispatch,Brooklyn Central,"LISTEN ONLY - EMS Brooklyn Central dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Brooklyn,EMS BK N Disp,483.28125,Simplex,,173.8 PL,FMN,EMS Dispatch,Brooklyn North,"LISTEN ONLY - EMS Brooklyn North dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Brooklyn,EMS BK S Disp,483.29375,Simplex,,192.8 PL,FMN,EMS Dispatch,Brooklyn South,"LISTEN ONLY - EMS Brooklyn South dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Manhattan,EMS MN C Disp,482.98125,Simplex,,156.7 PL,FMN,EMS Dispatch,Manhattan Central,"LISTEN ONLY - EMS Manhattan Central dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Manhattan,EMS MN N Disp,482.75625,Simplex,,151.4 PL,FMN,EMS Dispatch,Manhattan North,"LISTEN ONLY - EMS Manhattan North dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Manhattan,EMS MN S Disp,483.21875,Simplex,,162.2 PL,FMN,EMS Dispatch,Manhattan South,"LISTEN ONLY - EMS Manhattan South dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Queens,EMS QN E Disp,483.03125,Simplex,,141.3 PL,FMN,EMS Dispatch,Queens East,"LISTEN ONLY - EMS Queens East dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Queens,EMS QN W Disp,482.51875,Simplex,,146.2 PL,FMN,EMS Dispatch,Queens West,"LISTEN ONLY - EMS Queens West dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Staten Island,EMS SI Disp,482.24375,Simplex,,136.5 PL,FMN,EMS Dispatch,Staten Island,"LISTEN ONLY - EMS Staten Island dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,EMS CW 1,482.16875,Simplex,,156.7 PL,FMN,EMS Dispatch,Citywide 1,"LISTEN ONLY - EMS citywide dispatch 1, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,EMS CW 2,482.21875,Simplex,,162.2 PL,FMN,EMS Dispatch,Citywide 2,"LISTEN ONLY - EMS citywide dispatch 2, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,NYPD CW 2,470.7125,Simplex,,110.9 PL,FM,Law Dispatch,Citywide 2,"LISTEN ONLY - NYPD citywide dispatch 2, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,NYPD CW 3,470.8625,Simplex,,151.4 PL,FM,Law Dispatch,Citywide 3,"LISTEN ONLY - NYPD citywide dispatch 3, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,NYPD CW 4,470.8875,Simplex,,EF0 NAC,P25E,Law Dispatch,Citywide 4,"LISTEN ONLY - NYPD citywide dispatch 4, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,NYPD SOD,470.8375,Simplex,,136.5 PL,FM,Law Dispatch,Special Ops,"LISTEN ONLY - Special Operations Division, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,NYPD Traffic,470.8125,Simplex,,123.0 PL,FM,Law Dispatch,Traffic,"LISTEN ONLY - Traffic Division/Highway units, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,NYPD DET CW,470.7375,Simplex,,186.2 PL,FM,Law Tac,Detective,"LISTEN ONLY - Detective citywide operations, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,NYPD Tac A,485.6125,Simplex,,203.5 PL,FM,Law Tac,Tactical,"LISTEN ONLY - Patrol tactical operations, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,FDNY BX Dispatch,482.00625,Simplex,,131.8 PL,FMN,Fire Dispatch,Bronx,"LISTEN ONLY - FDNY Bronx dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,FDNY BK Dispatch,482.01875,Simplex,,136.5 PL,FMN,Fire Dispatch,Brooklyn,"LISTEN ONLY - FDNY Brooklyn dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,FDNY MN Dispatch,482.10625,Simplex,,146.2 PL,FMN,Fire Dispatch,Manhattan,"LISTEN ONLY - FDNY Manhattan dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,FDNY QN Dispatch,482.03125,Simplex,,141.3 PL,FMN,Fire Dispatch,Queens,"LISTEN ONLY - FDNY Queens dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,FDNY SI Dispatch,482.04375,Simplex,,151.4 PL,FMN,Fire Dispatch,Staten Island,"LISTEN ONLY - FDNY Staten Island dispatch, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,FDNY CW1,482.23125,Simplex,,131.8 PL,FMN,Fire Dispatch,Citywide 1,"LISTEN ONLY - FDNY citywide dispatch 1, no transmit",2024-11-26,radioreference.com
+NYC,Citywide,FDNY CW2,483.38125,Simplex,,167.9 PL,FMN,Fire Dispatch,Citywide 2,"LISTEN ONLY - FDNY citywide dispatch 2, no transmit",2024-11-26,radioreference.comTioga County,Countywide,TiogaShrf1/2,158.760,Simplex,,167.9 PL,FMN,Law Dispatch,Sheriff Ch 1/2,"LISTEN ONLY - Sheriff primary dispatch, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo FG 4,46.320,Simplex,,100.0 PL,FM,Fire-Tac,Fireground 4,"LISTEN ONLY - Fire tactical operations, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo FG 5,46.260,Simplex,,100.0 PL,FM,Fire-Tac,Fireground 5,"LISTEN ONLY - Fire tactical operations, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo FG 6,46.420,Simplex,,100.0 PL,FM,Fire-Tac,Fireground 6,"LISTEN ONLY - Fire tactical operations, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo FD/FG 1,453.0375,Simplex,,CSQ,FMN,Fire-Tac,Command 1,"LISTEN ONLY - Fireground command operations, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo FD/FG 2,453.0875,Simplex,,CSQ,FMN,Fire-Tac,Command 2,"LISTEN ONLY - Fireground command operations, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo FD/FG 3,453.1125,Simplex,,CSQ,FMN,Fire-Tac,Command 3,"LISTEN ONLY - Fireground command operations, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo FD/FG 4,453.8875,Simplex,,CSQ,FMN,Fire-Tac,Command 4,"LISTEN ONLY - Fireground command operations, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo FD 1,154.100,Simplex,,CSQ,FMN,Fire-Tac,County Fire 1,"LISTEN ONLY - County fire operations, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo FD 2,154.145,Simplex,,CSQ,FMN,Fire-Tac,County Fire 2,"LISTEN ONLY - County fire operations, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo FD 3,154.295,Simplex,,CSQ,FMN,Fire-Tac,County Fire 3,"LISTEN ONLY - County fire operations, no transmit",2024-11-26,radioreference.com
+Tioga County,Waverly-Barton,Wav-Bart FD 1,156.0675,Simplex,,CSQ,FMN,Fire-Tac,WB Tactical 1,"LISTEN ONLY - Waverly-Barton fire tactical, no transmit",2024-11-26,radioreference.com
+Tioga County,Waverly-Barton,Wav-Bart FD 2,159.0075,Simplex,,CSQ,FMN,Fire-Tac,WB Tactical 2,"LISTEN ONLY - Waverly-Barton fire tactical, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,Tioga Shrf 3,155.520,Simplex,,167.9 PL,FMN,Law Dispatch,Sheriff Ch 3,"LISTEN ONLY - Sheriff/Owego PD channel, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,Tioga Shrf 4,154.725,Simplex,,167.9 PL,FMN,Law Talk,Sheriff Ch 4,"LISTEN ONLY - Waverly PD dispatch, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo FD 1,46.200,Simplex,,100.0 PL,FM,Fire Dispatch,Fire Ch 1,"LISTEN ONLY - Fire dispatch primary, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo FG 2,46.220,Simplex,,100.0 PL,FM,Interop,Fire Ch 2,"LISTEN ONLY - Fire mutual aid, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo FG 3,46.280,Simplex,,100.0 PL,FM,Fire-Tac,Fire Ch 3,"LISTEN ONLY - Fire police operations, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo FD Disp,453.350,Simplex,,107.2 PL,FMN,Fire Dispatch,Fire Dispatch,"LISTEN ONLY - Fire dispatch rebroadcast, no transmit",2024-11-26,radioreference.com
+Tioga County,Candor,Candor Amb,152.315,Simplex,,100.0 PL,FMN,EMS Dispatch,EMS Primary,"LISTEN ONLY - Candor ambulance operations, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo PS,154.4075,Simplex,,CSQ,FMN,Multi-Tac,PS Tac 1,"LISTEN ONLY - Public safety tactical, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCoPSTAC,156.1725,Simplex,,CSQ,FMN,Multi-Tac,PS Tac 2,"LISTEN ONLY - Public safety tactical, no transmit",2024-11-26,radioreference.com
+Tioga County,Countywide,TiogaCo Hwy,159.120,Simplex,,432 DPL,FMN,Public Works,Highway,"LISTEN ONLY - County highway department, no transmit",2024-11-26,radioreference.comDutchess County,Countywide,DCSO Dispatch,155.640,Simplex,,141.3 PL,FMN,Law Dispatch,Sheriff,"LISTEN ONLY - Sheriff primary dispatch, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC HazMat Team,460.525,Simplex,,CSQ,FMN,Fire-Tac,HazMat,"LISTEN ONLY - Hazardous Materials Team, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC FD Pagers,46.360,Simplex,,CSQ,FM,Fire Dispatch,Paging,"LISTEN ONLY - Fire pager channel, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC 911 to Hosp,155.280,Simplex,,CSQ,FMN,Hospital,Hospital,"LISTEN ONLY - 911 to hospital comms, no transmit",2024-11-26,radioreference.com
+Dutchess County,Courts,DCCS Ch 1,154.755,Simplex,,192.8 PL,FMN,Law Tac,Courts,"LISTEN ONLY - Court security operations, no transmit",2024-11-26,radioreference.com
+Dutchess County,Courts,DCCS Ch 2,155.310,Simplex,,192.8 PL,FMN,Law Tac,Courts,"LISTEN ONLY - Court security operations, no transmit",2024-11-26,radioreference.com
+Dutchess County,Courts,DCCS Pough/BCN,151.325,Simplex,,CSQ,FMN,Law Tac,Courts,"LISTEN ONLY - Poughkeepsie/Beacon courts, no transmit",2024-11-26,radioreference.com
+Dutchess County,Red Cross,Red Cross Mill,464.050,Simplex,,203.5 PL,FMN,Emergency Ops,Emergency,"LISTEN ONLY - Red Cross Millerton ops, no transmit",2024-11-26,radioreference.com
+Dutchess County,Red Cross,Red Cross High,463.450,Simplex,,151.4 PL,FMN,Emergency Ops,Emergency,"LISTEN ONLY - Red Cross Highland ops, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC MED 9 ALS,462.950,Simplex,,192.8 PL,FMN,Hospital,Hospital,"LISTEN ONLY - Med-9 ALS coordination, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC Fire Investg,460.600,Simplex,,82.5 PL,FMN,Fire-Talk,Investigation,"LISTEN ONLY - Fire investigation division, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DCSO Car-Car,159.240,Simplex,,94.8 PL,FMN,Law Talk,Car to Car,"LISTEN ONLY - Sheriff car-to-car ops, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC Training FG,465.575,Simplex,,114.8 PL,FMN,Fire-Talk,Training,"LISTEN ONLY - Fire training operations, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC FG 5/6,453.050,Simplex,,114.8 PL,FMN,Fire-Tac,Fireground 5/6,"LISTEN ONLY - County fireground ops 5/6, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC FG 7/8,453.450,Simplex,,82.5 PL,FMN,Fire-Tac,Fireground 7/8,"LISTEN ONLY - County fireground ops 7/8, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC FG 9/10,453.625,Simplex,,82.5 PL,FMN,Fire-Tac,Fireground 9/10,"LISTEN ONLY - County fireground ops 9/10, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC FG Tac A,453.600,Simplex,,114.8 PL,FMN,Fire-Tac,Tactical A,"LISTEN ONLY - County tactical A, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC FG Tac B,453.825,Simplex,,114.8 PL,FMN,Fire-Tac,Tactical B,"LISTEN ONLY - County tactical B, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC Fire Police,453.9125,Simplex,,136.5 PL,FMN,Fire-Talk,Fire Police,"LISTEN ONLY - County fire police ops, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DER MACC 1,154.115,Simplex,,263 DPL,FMN,Interop,Command 1,"LISTEN ONLY - Multi-agency command 1, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DER MACC 2,151.070,Simplex,,263 DPL,FMN,Interop,Command 2,"LISTEN ONLY - Multi-agency command 2, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DCSO TAC IL,151.340,Simplex,,131 DPL,FMN,Law Tac,Sheriff Tac,"LISTEN ONLY - Sheriff tactical Illinois, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DCSO TAC SL,155.835,Simplex,,131 DPL,FMN,Law Tac,Sheriff Tac,"LISTEN ONLY - Sheriff tactical Silver, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC 911 Dispatch,155.415,Simplex,,654 DPL,FMN,Law Dispatch,911,"LISTEN ONLY - County 911 dispatch, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC FD Dispatch,453.900,Simplex,,114.8 PL,FMN,Fire Dispatch,Fire Main,"LISTEN ONLY - Fire dispatch primary, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC FD Response,453.925,Simplex,,114.8 PL,FMN,Fire Dispatch,Response,"LISTEN ONLY - Fire response channel, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC Fire Command,453.800,Simplex,,114.8 PL,FMN,Fire-Talk,Command,"LISTEN ONLY - Fire command operations, no transmit",2024-11-26,radioreference.com
+Dutchess County,Beacon,Beacon Fire,460.400,Simplex,,114.8 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Beacon fire operations, no transmit",2024-11-26,radioreference.com
+Dutchess County,Beacon,Beacon EMS,452.8125,Simplex,,074 DPL,FMN,EMS-Tac,EMS Ops,"LISTEN ONLY - Beacon EMS operations, no transmit",2024-11-26,radioreference.com
+Dutchess County,Beacon,Beacon Highway,453.325,Simplex,,136.5 PL,FMN,Public Works,Highway,"LISTEN ONLY - Beacon highway department, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC EMS Control 1,155.745,Simplex,,136.5 PL,FMN,EMS-Tac,EMS Main,"LISTEN ONLY - EMS control primary, no transmit",2024-11-26,radioreference.com
+Dutchess County,Countywide,DC EMS Control 2,155.760,Simplex,,136.5 PL,FMN,EMS-Tac,EMS Alt,"LISTEN ONLY - EMS control secondary, no transmit",2024-11-26,radioreference.comUlster County,Countywide,UC 911 Dispatch,155.025,Simplex,,100.0 PL,FMN,Law Dispatch,911 Main,"LISTEN ONLY - Primary 911 dispatch, no transmit",2024-11-26,radioreference.com
+Ulster County,Port Ewen,Port Ewen FD,154.265,Simplex,,CSQ,FMN,Fire-Tac,Operations,"LISTEN ONLY - Port Ewen fire operations, no transmit",2024-11-26,radioreference.com
+Ulster County,East Kingston,EKingston FD,154.295,Simplex,,110.9 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - East Kingston fire ops, no transmit",2024-11-26,radioreference.com
+Ulster County,Ulster,UlsterHose 1,154.310,Simplex,,131 DPL,FMN,Fire-Tac,Primary,"LISTEN ONLY - Ulster Hose primary ops, no transmit",2024-11-26,radioreference.com
+Ulster County,Ulster,UlsterHose 2,154.400,Simplex,,131 DPL,FMN,Fire-Tac,Secondary,"LISTEN ONLY - Ulster Hose secondary ops, no transmit",2024-11-26,radioreference.com
+Ulster County,Hurley,Hurley Fire,159.3075,Simplex,,114.8 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Hurley fire operations, no transmit",2024-11-26,radioreference.com
+Ulster County,West Hurley,W Hurley FD,159.180,Simplex,,118.8 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - West Hurley fire operations, no transmit",2024-11-26,radioreference.com
+Ulster County,Esopus,Esopus FD Ops,151.415,Simplex,,271 DPL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Esopus fire operations, no transmit",2024-11-26,radioreference.com
+Ulster County,Esopus,Esopus EMS Ops,155.160,Simplex,,100.0 PL,FMN,EMS-Tac,Operations,"LISTEN ONLY - Esopus EMS operations, no transmit",2024-11-26,radioreference.com
+Ulster County,Ulster,T/Ulster DPW,151.010,Simplex,,94.8 PL,FMN,Public Works,DPW,"LISTEN ONLY - Town of Ulster public works, no transmit",2024-11-26,radioreference.com
+Ulster County,Hurley,Hurley DPW,155.955,Simplex,,192.8 PL,FMN,Public Works,DPW,"LISTEN ONLY - Hurley public works, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,UC FG Ch 3,46.300,Simplex,,114.8 PL,FM,Fire-Tac,Fireground 3,"LISTEN ONLY - Fire tactical operations, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,UC FG Ch 4,46.280,Simplex,,114.8 PL,FM,Fire-Tac,Fireground 4,"LISTEN ONLY - Fire tactical operations, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,UC FG Ch 5,46.320,Simplex,,114.8 PL,FM,Fire-Tac,Fireground 5,"LISTEN ONLY - Fire tactical operations, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,UC FG Ch 6,46.280,Simplex,,127.3 PL,FM,Fire-Tac,Fireground 6,"LISTEN ONLY - Fire tactical operations, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,UC FG Ch 7,46.320,Simplex,,127.3 PL,FM,Fire-Tac,Fireground 7,"LISTEN ONLY - Fire tactical operations, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,Empress EMS,155.295,Simplex,,CSQ,FMN,EMS Dispatch,Empress Main,"LISTEN ONLY - Empress EMS dispatch, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,Empress Tac 1,468.0125,Simplex,,412 DPL,FMN,EMS-Tac,Empress Tac,"LISTEN ONLY - Empress tactical 1, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,Empress Tac 2,468.0375,Simplex,,412 DPL,FMN,EMS-Tac,Empress Tac,"LISTEN ONLY - Empress tactical 2, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,Empress Tac 3,468.0625,Simplex,,412 DPL,FMN,EMS-Tac,Empress Tac,"LISTEN ONLY - Empress tactical 3, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,UC 911 Ops,155.670,Simplex,,110.9 PL,FMN,Law Tac,911 Ops,"LISTEN ONLY - 911 operations channel, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,UCSO Dispatch,155.9325,Simplex,,85.4 PL,FMN,Law Dispatch,Sheriff,"LISTEN ONLY - Sheriff dispatch, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,UCSO Car-Car,151.235,Simplex,,110.9 PL,FMN,Law Talk,Car to Car,"LISTEN ONLY - Sheriff car-to-car ops, no transmit",2024-11-26,radioreference.com
+Ulster County,Kingston,KingstonFire,154.235,Simplex,,127.3 PL,FMN,Fire Dispatch,Fire Alert,"LISTEN ONLY - Kingston fire alerting, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,UC FD/EMS Disp,155.220,Simplex,,91.5 PL,FMN,EMS Dispatch,Fire/EMS,"LISTEN ONLY - Fire/EMS dispatch, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,UC Fire Cmd/Rsp,46.460,Simplex,,114.8 PL,FM,Fire Dispatch,Command,"LISTEN ONLY - Fire command/response, no transmit",2024-11-26,radioreference.com
+Ulster County,Countywide,UC EMS Ops,155.175,Simplex,,91.5 PL,FMN,EMS-Tac,EMS Ops,"LISTEN ONLY - EMS operations, no transmit",2024-11-26,radioreference.com
+Ulster County,Kingston,UC RRC Kingston,153.545,Simplex,,261 DPL,FMN,Public Works,Resource Recovery,"LISTEN ONLY - Resource Recovery Agency ops, no transmit",2024-11-26,radioreference.comDelaware County,Countywide,DC 911 Polling,156.030,Simplex,,218.1 PL,FMN,Law Dispatch,911,"LISTEN ONLY - County 911 polling system, no transmit",2024-11-26,radioreference.com
+Delaware County,Franklin,Franklin FD,453.475,Simplex,,167.9 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Franklin fire operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Grand Gorge,GG FD Ops,153.215,Simplex,,110.9 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Grand Gorge fire operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Hobart,Hobart FD,159.3825,Simplex,,94.8 PL,FMN,Fire Dispatch,Operations,"LISTEN ONLY - Hobart fire alerts/operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Middletown,M-H FD Ops,154.1975,Simplex,,CSQ,FMN,Fire-Tac,Operations,"LISTEN ONLY - Middletown-Hardenberg fire ops, no transmit",2024-11-26,radioreference.com
+Delaware County,Pindars Corners,Pindars Crnrs FD,453.425,Simplex,,131.8 PL,FMN,Fire Dispatch,Dispatch,"LISTEN ONLY - Pindars Corners fire dispatch, no transmit",2024-11-26,radioreference.com
+Delaware County,Stamford,Stamford RIC,154.9725,Simplex,,136.5 PL,FMN,Fire-Tac,RIC,"LISTEN ONLY - Stamford RIC operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Stamford,Stamford FirePol,155.0025,Simplex,,136.5 PL,FMN,Fire-Talk,Fire Police,"LISTEN ONLY - Stamford fire police ops, no transmit",2024-11-26,radioreference.com
+Delaware County,Trout Creek,TroutCreekFD,453.150,Simplex,,CSQ,FMN,Fire-Tac,Operations,"LISTEN ONLY - Trout Creek fire operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Bovina,Bovina FD Disp,159.120,Simplex,,203.5 PL,FMN,Fire Dispatch,Dispatch,"LISTEN ONLY - Bovina fire dispatch, no transmit",2024-11-26,radioreference.com
+Delaware County,Bovina,Bovina FD Ops,159.2025,Simplex,,203.5 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Bovina fire operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Roxbury,Roxbury FG,154.600,Simplex,,141.3 PL,FMN,Fire-Tac,Fireground,"LISTEN ONLY - Roxbury fireground operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Countywide,DC FG 1,453.925,Simplex,,218.1 PL,FMN,Fire-Tac,Fireground 1,"LISTEN ONLY - County fireground 1, no transmit",2024-11-26,radioreference.com
+Delaware County,Countywide,DC FG 2,460.625,Simplex,,229.1 PL,FMN,Fire-Tac,Fireground 2,"LISTEN ONLY - County fireground 2, no transmit",2024-11-26,radioreference.com
+Delaware County,Countywide,DC FG 3,458.925,Simplex,,241.8 PL,FMN,Fire-Tac,Fireground 3,"LISTEN ONLY - County fireground 3, no transmit",2024-11-26,radioreference.com
+Delaware County,Countywide,DelwrCo Hwy,33.100,Simplex,,CSQ,FM,Public Works,Highway,"LISTEN ONLY - County highway department, no transmit",2024-11-26,radioreference.com
+Delaware County,Sidney,Sidney FD,453.600,Simplex,,131.8 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Sidney fire operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Delhi,Delhi FD Ops,155.8425,Simplex,,203.5 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Delhi fire operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Walton,Walton FD,159.1725,Simplex,,203.5 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Walton fire operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Stamford,Stamford Ops,152.4425,Simplex,,141.3 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Stamford fire operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Stamford,Stamford FG,154.3325,Simplex,,136.5 PL,FMN,Fire-Tac,Fireground,"LISTEN ONLY - Stamford fireground, no transmit",2024-11-26,radioreference.com
+Delaware County,Andes,Andes FD Ops,155.0175,Simplex,,114.8 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Andes fire operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Downsville,Dwnsvile Ops,154.3775,Simplex,,210.7 PL,FMN,Fire-Tac,Operations,"LISTEN ONLY - Downsville fire operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Countywide,DC FD/EMS Paging,155.1375,Simplex,,91.5 PL,FMN,Fire Dispatch,Fire Page,"LISTEN ONLY - County fire/EMS paging, no transmit",2024-11-26,radioreference.com
+Delaware County,Countywide,DC FD/EMS Resp,453.5375,Simplex,,203.5 PL,FMN,Fire Dispatch,Response,"LISTEN ONLY - Fire/EMS response channel, no transmit",2024-11-26,radioreference.com
+Delaware County,Countywide,DelwrCo Fire,46.060,Simplex,,110.9 PL,FM,Fire Dispatch,Command,"LISTEN ONLY - Fire dispatch/command (911 transmit), no transmit",2024-11-26,radioreference.com
+Delaware County,Countywide,DelwrCO FD,46.220,Simplex,,CSQ,FM,Fire-Talk,Car to Car,"LISTEN ONLY - Fire car-to-car operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Countywide,DelwrCo FG,46.300,Simplex,,CSQ,FM,Fire-Tac,Fireground,"LISTEN ONLY - Fire fireground operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Countywide,DC Fire Tac 2,460.150,Simplex,,97.4 PL,FMN,Fire-Tac,Tactical 2,"LISTEN ONLY - Fire tactical 2 operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Countywide,DC Fire Tac 3,453.5625,Simplex,,110.9 PL,FMN,Fire-Tac,Tactical 3,"LISTEN ONLY - Fire tactical 3 operations, no transmit",2024-11-26,radioreference.com
+Delaware County,Countywide,DC Fire Tac 4,460.4625,Simplex,,131.8 PL,FMN,Fire-Tac,Tactical 4,"LISTEN ONLY - Fire tactical 4 operations, no transmit",2024-11-26,radioreference.comHudson Valley,Wappingers Falls,MHV600,462.600,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Permission required for transmit, Hudson Valley GMRS",2024-11-26,mygmrs.com
+Hudson Valley,Highland,Tri-County REACT Central,462.625,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Paid membership required for transmit, request authorization",2024-11-26,mygmrs.com
+Hudson Valley,Fishkill,Tri-County REACT South,462.625,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Paid membership required for transmit, request authorization",2024-11-26,mygmrs.com
+Catskills,Loch Sheldrake,Upstate NY,462.600,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Open system, GMRS license required for transmit",2024-11-26,mygmrs.com
+Orange County,Wurtsboro,Orange North,462.700,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"REACT members only, contact for authorization",2024-11-26,mygmrs.com
+Sussex County NJ,Sussex,Sussex 725,462.725,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Open system, GMRS license required for transmit",2024-11-26,mygmrs.com
+Sussex County NJ,Vernon,Vernon 550,462.550,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Open system, GMRS license required for transmit",2024-11-26,mygmrs.com
+Sussex County NJ,Sussex,Wantage/Vernon 575,462.575,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Open system, GMRS license required for transmit",2024-11-26,mygmrs.comNational,VHF,VCALL10,155.7525,Simplex,,156.7 PL,FMN,Interop,Calling,"National VHF calling channel, high priority",2024-11-26,nifog.gov
+National,VHF-PS,VFIRE22,154.265,Simplex,,156.7 PL,FMN,Fire-Tac,Fire,"Emergency fire operations, high priority",2024-11-26,nifog.gov
+National,VHF-PS,VFIRE23,154.295,Simplex,,156.7 PL,FMN,Fire-Tac,Fire,"Emergency fire operations, high priority",2024-11-26,nifog.gov
+National,VHF-PS,VMED29,155.3475,Simplex,,156.7 PL,FMN,EMS-Tac,EMS,"Mass casualty incident operations",2024-11-26,nifog.gov
+National,VHF,VSAR16,155.160,Simplex,,127.3 PL,FMN,Emergency Ops,SAR,"Search and Rescue operations",2024-11-26,nifog.gov
+National,UHF,UTAC43,453.8625,Simplex,,156.7 PL,FMN,Interop,Tactical,"Emergency tactical operations",2024-11-26,nifog.gov
+National,UHF,MED-9,462.950,Simplex,,CSQ,FMN,EMS Dispatch,Hospital,"Hospital/EMS coordination (primary)",2024-11-26,nifog.gov
+National,UHF,MED-10,462.975,Simplex,,CSQ,FMN,EMS Dispatch,Hospital,"Hospital/EMS coordination (secondary)",2024-11-26,nifog.gov
+National,UHF,MED-1,463.000,Simplex,,CSQ,FMN,EMS-Tac,Hospital,"Hospital/EMS tactical operations",2024-11-26,nifog.gov
+National,UHF,MED-2,463.025,Simplex,,CSQ,FMN,EMS-Tac,Hospital,"Hospital/EMS tactical operations",2024-11-26,nifog.gov
+National,800MHz,8TAC93,852.5125,Simplex,,156.7 PL,FM,Interop,Tactical,"Emergency tactical operations",2024-11-26,nifog.gov
+National,800MHz,8TAC94,853.0125,Simplex,,156.7 PL,FM,Interop,Tactical,"Emergency tactical operations",2024-11-26,nifog.gov
+National,VHF,NC1/IR5,169.5375,Simplex,,167.9 PL,FMN,Interop,Federal,"Federal incident response calling",2024-11-26,nifog.gov
+National,VHF,IR1/IR6,170.0125,Simplex,,167.9 PL,FMN,Interop,Federal,"Federal incident command",2024-11-26,nifog.gov
+National,VHF,IR2/IR7,170.4125,Simplex,,167.9 PL,FMN,Interop,Federal,"Medical evacuation control",2024-11-26,nifog.gov
+National,VHF,VTAC11,151.1375,Simplex,,156.7 PL,FMN,Interop,Tactical,"VHF tactical operations, commonly used",2024-11-26,nifog.gov
+National,VHF,VTAC12,154.4525,Simplex,,156.7 PL,FMN,Interop,Tactical,"VHF tactical operations, commonly used",2024-11-26,nifog.gov
+National,VHF-PS,VFIRE21,154.280,Simplex,,156.7 PL,FMN,Fire-Tac,Fire,"Common fire mutual aid channel",2024-11-26,nifog.gov
+National,VHF-PS,VMED28,155.340,Simplex,,156.7 PL,FMN,EMS-Tac,EMS,"Primary EMS mutual aid channel",2024-11-26,nifog.gov
+National,VHF-PS,VLAW31,155.475,Simplex,,156.7 PL,FMN,Law Tac,Law,"Primary law enforcement mutual aid",2024-11-26,nifog.gov
+National,UHF,UCALL40,453.2125,Simplex,,156.7 PL,FMN,Interop,Calling,"National UHF calling channel",2024-11-26,nifog.gov
+National,UHF,UTAC41,453.4625,Simplex,,156.7 PL,FMN,Interop,Tactical,"UHF tactical operations",2024-11-26,nifog.gov
+National,UHF,UTAC42,453.7125,Simplex,,156.7 PL,FMN,Interop,Tactical,"UHF tactical operations",2024-11-26,nifog.gov
+National,800MHz,8CALL90,851.0125,Simplex,,156.7 PL,FM,Interop,Calling,"National 800MHz calling channel",2024-11-26,nifog.gov
+National,800MHz,8TAC91,851.5125,Simplex,,156.7 PL,FM,Interop,Tactical,"800MHz tactical operations",2024-11-26,nifog.gov
+National,800MHz,8TAC92,852.0125,Simplex,,156.7 PL,FM,Interop,Tactical,"800MHz tactical operations",2024-11-26,nifog.govFederal,FEMA,FEMA 1/2,406.2625,Simplex,,421 NAC,P25,Federal,FEMA,"FEMA primary operations, major disasters",2024-11-26,radioreference.com
+Federal,Incident,IR1/IR6,170.0125,Simplex,,167.9 PL,FMN,Interop,Command,"Federal incident command post operations",2024-11-26,radioreference.com
+Federal,Incident,IR2/IR7,170.4125,Simplex,,167.9 PL,FMN,Interop,Medical,"Medical evacuation coordination",2024-11-26,radioreference.com
+Federal,Incident,IR3/IR8,170.6875,Simplex,,167.9 PL,FMN,Interop,Logistics,"Logistics and supply coordination",2024-11-26,radioreference.com
+Federal,Incident,IR4/IR9,173.0375,Simplex,,167.9 PL,FMN,Interop,Transport,"Interagency convoy operations",2024-11-26,radioreference.com
+Federal,Air Ops,7AG58,769.13125,Simplex,,293 NAC,P25,Interop,Air-Ground,"Air operations coordination primary",2024-11-26,radioreference.com
+Federal,Air Ops,7AG88,774.61875,Simplex,,293 NAC,P25,Interop,Air-Ground,"Landing zone coordination",2024-11-26,radioreference.com
+Federal,Tactical,7FIRE63,769.89375,Simplex,,293 NAC,P25,Interop,Fire,"Federal-Fire coordination primary",2024-11-26,radioreference.com
+Federal,Tactical,7MED65,769.39375,Simplex,,293 NAC,P25,Interop,EMS,"Federal-EMS coordination primary",2024-11-26,radioreference.com
+Federal,Command,7TAC73,774.10625,Simplex,,293 NAC,P25,Interop,Tactical,"Federal incident tactical operations",2024-11-26,radioreference.com
+Federal,Mobile,7MOB59,770.89375,Simplex,,293 NAC,P25,Interop,Mobile,"Mobile command post operations",2024-11-26,radioreference.com
+Federal,State,VLAW31,155.475,Simplex,,156.7 PL,FMN,Law Tac,Mutual Aid,"Federal to local law enforcement coordination",2024-11-26,radioreference.com
+Federal,Medical,MED-9,462.950,Simplex,,CSQ,FMN,EMS Dispatch,Hospital,"Hospital/EMS mass casualty coordination",2024-11-26,radioreference.com
+Federal,Deployed,700 DTS 5,774.51875,Simplex,,CSQ,P25,Interop,Command,"Deployable trunked system control",2024-11-26,radioreference.com
+Federal,Deployed,700 DTS 6,774.86875,Simplex,,CSQ,P25,Interop,Command,"Deployable trunked system tactical",2024-11-26,radioreference.com
+Federal,MERS,MERS 9/10,410.8625,Simplex,,CSQ,P25E,Federal,MERS,"Mobile Emergency Response major incidents",2024-11-26,radioreference.com
+Federal,MERS,MERS 11/12,407.450,Simplex,,CSQ,P25E,Federal,MERS,"Mobile Emergency Response command ops",2024-11-26,radioreference.com
+Federal,MERS,MERS 13/14,408.0625,Simplex,,CSQ,P25E,Federal,MERS,"Mobile Emergency Response tactical",2024-11-26,radioreference.com
+Federal,NDMS,NDMS 5/6,407.4625,Simplex,,CSQ,P25,Federal,Medical,"Medical disaster response tactical",2024-11-26,radioreference.com
+Federal,NDMS,NDMS 7/8,409.075,Simplex,,CSQ,P25,Federal,Medical,"Medical disaster response command",2024-11-26,radioreference.com
+Federal,USAR,USAR 5/6 Dig,409.6625,Simplex,,421 NAC,P25E,Federal,SAR,"USAR digital command operations",2024-11-26,radioreference.com
+Federal,USAR,USAR 7/8 Dig,409.8625,Simplex,,421 NAC,P25E,Federal,SAR,"USAR digital tactical operations",2024-11-26,radioreference.com
+Federal,USAR,USAR 5/6 Ana,409.6625,Simplex,,141.3 PL,FMN,Federal,SAR,"USAR analog command operations",2024-11-26,radioreference.com
+Federal,USAR,USAR 7/8 Ana,409.8625,Simplex,,141.3 PL,FMN,Federal,SAR,"USAR analog tactical operations",2024-11-26,radioreference.com
+Federal,FEMA,FEMA 3/4,407.0625,Simplex,,CSQ,P25,Federal,FEMA,"FEMA tactical operations, major disasters",2024-11-26,radioreference.com
+Federal,FEMA,FEMA 5/6,407.6625,Simplex,,421 NAC,P25e,Federal,FEMA,"FEMA command operations, major disasters",2024-11-26,radioreference.com
+Federal,MERS,MERS 1,412.825,Simplex,,CSQ,P25E,Federal,MERS,"Mobile Emergency Response Support 1",2024-11-26,radioreference.com
+Federal,MERS,MERS 2,412.850,Simplex,,CSQ,P25E,Federal,MERS,"Mobile Emergency Response Support 2",2024-11-26,radioreference.com
+Federal,MERS,MERS 3,412.8375,Simplex,,CSQ,P25E,Federal,MERS,"Mobile Emergency Response Support 3",2024-11-26,radioreference.com
+Federal,NDMS,DMAT,409.000,Simplex,,447 NAC,P25E,Federal,Medical,"Disaster Medical Assistance Team ops",2024-11-26,radioreference.com
+Federal,NDMS,NDMS 1/2,406.8625,Simplex,,421 NAC,P25E,Federal,Medical,"National Disaster Medical System primary",2024-11-26,radioreference.com
+Federal,USAR,USAR 1/2 Dig,408.8625,Simplex,,421 NAC,P25E,Federal,SAR,"Urban Search & Rescue digital primary",2024-11-26,radioreference.com
+Federal,USAR,USAR 3/4 Dig,409.2625,Simplex,,CSQ,P25,Federal,SAR,"Urban Search & Rescue digital tactical",2024-11-26,radioreference.com
+Federal,USAR,USAR 1/2 Ana,408.8625,Simplex,,141.3 PL,FMN,Federal,SAR,"Urban Search & Rescue analog primary",2024-11-26,radioreference.com
+Federal,USAR,USAR 3/4 Ana,409.2625,Simplex,,141.3 PL,FMN,Federal,SAR,"Urban Search & Rescue analog tactical",2024-11-26,radioreference.comNational,Red Cross,Red Cross 1,47.420,Simplex,,146.2 PL,FM,Emergency Ops,Primary,"Nationwide Red Cross primary operations",2024-11-26,radioreference.com
+National,GMRS,GMRS 15,462.5625,Simplex,,CSQ,FM,GMRS,Simplex,"Standard GMRS/FRS simplex, 5W max",2024-11-26,radioreference.com
+National,GMRS,GMRS 16,462.5875,Simplex,,CSQ,FM,GMRS,Simplex,"Standard GMRS/FRS simplex, 5W max",2024-11-26,radioreference.com
+National,GMRS,GMRS 17,462.6125,Simplex,,CSQ,FM,GMRS,Simplex,"Standard GMRS/FRS simplex, 5W max",2024-11-26,radioreference.com
+National,GMRS,GMRS 18,462.6375,Simplex,,CSQ,FM,GMRS,Simplex,"Standard GMRS/FRS simplex, 5W max",2024-11-26,radioreference.com
+National,GMRS,GMRS 19,462.6625,Simplex,,CSQ,FM,GMRS,Simplex,"Standard GMRS/FRS simplex, 5W max",2024-11-26,radioreference.com
+National,GMRS,GMRS 20,462.6875,Simplex,,CSQ,FM,GMRS,Simplex,"Standard GMRS/FRS simplex, 5W max",2024-11-26,radioreference.com
+National,GMRS,GMRS 21,462.7125,Simplex,,CSQ,FM,GMRS,Simplex,"Standard GMRS/FRS simplex, 5W max",2024-11-26,radioreference.com
+National,Red Cross,Red Cross 2,47.500,Simplex,,146.2 PL,FM,Emergency Ops,Secondary,"Nationwide Red Cross secondary operations",2024-11-26,radioreference.com
+National,GMRS,GMRS 1,462.550,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Standard GMRS repeater channel",2024-11-26,radioreference.com
+National,GMRS,GMRS 2,462.575,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Standard GMRS repeater channel",2024-11-26,radioreference.com
+National,GMRS,GMRS 3,462.600,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Standard GMRS repeater channel",2024-11-26,radioreference.com
+National,GMRS,GMRS 4,462.625,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Standard GMRS repeater channel",2024-11-26,radioreference.com
+National,GMRS,GMRS 5,462.650,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Standard GMRS repeater channel",2024-11-26,radioreference.com
+National,GMRS,GMRS 6,462.675,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Standard GMRS repeater channel",2024-11-26,radioreference.com
+National,GMRS,GMRS 7,462.700,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Standard GMRS repeater channel",2024-11-26,radioreference.com
+National,GMRS,GMRS 8,462.725,Duplex,+5.0,CSQ,FM,GMRS,Repeater,"Standard GMRS repeater channel",2024-11-26,radioreference.comNational,MURS,MURS 1,151.820,Simplex,,CSQ,FMN,MURS,Common,"MURS green dot channel, 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 8,467.5625,Simplex,,CSQ,FMN,FRS,Ultra Low,"FRS channel 8, 0.5W max",2024-11-26,fcc.gov
+National,FRS,FRS 9,467.5875,Simplex,,CSQ,FMN,FRS,Ultra Low,"FRS channel 9, 0.5W max",2024-11-26,fcc.gov
+National,FRS,FRS 10,467.6125,Simplex,,CSQ,FMN,FRS,Ultra Low,"FRS channel 10, 0.5W max",2024-11-26,fcc.gov
+National,FRS,FRS 11,467.6375,Simplex,,CSQ,FMN,FRS,Ultra Low,"FRS channel 11, 0.5W max",2024-11-26,fcc.gov
+National,FRS,FRS 12,467.6625,Simplex,,CSQ,FMN,FRS,Ultra Low,"FRS channel 12, 0.5W max",2024-11-26,fcc.gov
+National,FRS,FRS 13,467.6875,Simplex,,CSQ,FMN,FRS,Ultra Low,"FRS channel 13, 0.5W max",2024-11-26,fcc.gov
+National,FRS,FRS 14,467.7125,Simplex,,CSQ,FMN,FRS,Ultra Low,"FRS channel 14, 0.5W max",2024-11-26,fcc.gov
+National,FRS,FRS 15,462.550,Simplex,,CSQ,FMN,FRS,High Power,"FRS channel 15 (shared with GMRS), 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 16,462.575,Simplex,,CSQ,FMN,FRS,High Power,"FRS channel 16 (shared with GMRS), 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 17,462.600,Simplex,,CSQ,FMN,FRS,High Power,"FRS channel 17 (shared with GMRS), 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 18,462.625,Simplex,,CSQ,FMN,FRS,High Power,"FRS channel 18 (shared with GMRS), 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 19,462.650,Simplex,,CSQ,FMN,FRS,High Power,"FRS channel 19 (shared with GMRS), 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 20,462.675,Simplex,,CSQ,FMN,FRS,High Power,"FRS channel 20 (shared with GMRS), 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 21,462.700,Simplex,,CSQ,FMN,FRS,High Power,"FRS channel 21 (shared with GMRS), 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 22,462.725,Simplex,,CSQ,FMN,FRS,High Power,"FRS channel 22 (shared with GMRS), 2W max",2024-11-26,fcc.gov
+National,MURS,MURS 2,151.880,Simplex,,CSQ,FMN,MURS,Common,"MURS standard channel, 2W max",2024-11-26,fcc.gov
+National,MURS,MURS 3,151.940,Simplex,,CSQ,FMN,MURS,Common,"MURS standard channel, 2W max",2024-11-26,fcc.gov
+National,MURS,MURS 4,154.570,Simplex,,CSQ,FM,MURS,Blue Dot,"MURS blue dot channel, 2W max",2024-11-26,fcc.gov
+National,MURS,MURS 5,154.600,Simplex,,CSQ,FM,MURS,Green Dot,"MURS green dot channel, 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 1,462.5625,Simplex,,CSQ,FMN,FRS,Low Power,"FRS channel 1, 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 2,462.5875,Simplex,,CSQ,FMN,FRS,Low Power,"FRS channel 2, 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 3,462.6125,Simplex,,CSQ,FMN,FRS,Low Power,"FRS channel 3, 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 4,462.6375,Simplex,,CSQ,FMN,FRS,Low Power,"FRS channel 4, 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 5,462.6625,Simplex,,CSQ,FMN,FRS,Low Power,"FRS channel 5, 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 6,462.6875,Simplex,,CSQ,FMN,FRS,Low Power,"FRS channel 6, 2W max",2024-11-26,fcc.gov
+National,FRS,FRS 7,462.7125,Simplex,,CSQ,FMN,FRS,Low Power,"FRS channel 7, 2W max",2024-11-26,fcc.gov
