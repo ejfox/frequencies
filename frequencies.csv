@@ -8,24 +8,24 @@ Hudson Valley Core,Beacon,Mt. Beacon WA2GZW/R,449.575,Duplex,5.0,100.0,FM,Amateu
 Hudson Valley Core,Beacon,Mt. Beacon N2HPA/R,921.200,Duplex,12.0,100.0,FM,Amateur,Repeater,Located on Mt. Beacon,2024-11-26,
 Hudson Valley Core,Clove,Mt. Beacon N2DXL/R,449.975,Duplex,5.0,88.5,DMR,Amateur,Repeater,"DMR & FM modes; Color Code 11, Time Slot 1, Group Call 9975; standalone repeater",2024-11-26,
 Hudson Valley Core,Highland,Mt. Beacon KC2OBW/R,440.3125,Duplex,-5.0,,DMR,Amateur,Repeater,"DMR mode; Color Code 11, Time Slot 1, Group Call 3125; standalone repeater",2024-11-26,
-Orange County,Orange County,OC Jail,460.4125,Simplex,,71.9 PL,FMN,Corrections,Jail operations,Used by Sheriff,2024-11-26,https://radioreference.com
-Orange County,Orange County,OC FD Paging,154.205,Simplex,,123.0 PL,FMN,Fire Dispatch,Fire Paging,Paging for fire services,2024-11-26,https://radioreference.com
-Orange County,Orange County,OC FG A,458.9875,Simplex,,110.9 PL,FMN,Fire-Tac,Fireground A,Primary fireground channel,2024-11-26,https://radioreference.com
-Orange County,Orange County,OC EM FG,460.5875,Simplex,,162.2 PL,FMN,Fire-Tac,Emergency Fireground,Alternate fireground channel,2024-11-26,https://radioreference.com
-Orange County,Orange County,OC Cmd A,453.9625,Simplex,,123.0 PL,FMN,Fire-Tac,Command A,Primary command channel,2024-11-26,https://radioreference.com
-Orange County,Orange County,OC Cmd B,465.5875,Simplex,,516 DPL,FMN,Fire-Tac,Command B,Secondary command channel,2024-11-26,https://radioreference.com
-Orange County,Orange County,OC FG B,458.2625,Simplex,,110.9 PL,FMN,Fire-Tac,Fireground B,Alternate fireground channel,2024-11-26,https://radioreference.com
-Orange County,Orange County,OC EMS Paging,157.450,Simplex,,136.5 PL,FMN,EMS Dispatch,EMS Paging,Simulcast EMS paging,2024-11-26,https://radioreference.com
-Orange County,Orange County,OC EMS Tact,155.280,Simplex,,100.0 PL,FMN,EMS-Tac,EMS Tactical,Tactical operations channel,2024-11-26,https://radioreference.com
-Orange County,Orange County,PS Ground A,853.9875,Simplex,,156.7 PL,FMN,Interop,Public Safety Ground A,Public safety interop channel,2024-11-26,https://radioreference.com
-Orange County,Blooming Grove,BlmGrv Highway,151.040,Simplex,,100.0 PL,FMN,Public Works,Highway Dept,Highway department communications,2024-11-26,https://radioreference.com
-Orange County,Cornwall,Cornwall DPW,155.115,Simplex,,88.5 PL,FMN,Public Works,DPW,Public works communications,2024-11-26,https://radioreference.com
-Orange County,Greenwood Lake,GrnwdLkEMSDp,156.165,Simplex,,94.8 PL,FMN,EMS Dispatch,EMS Dispatch,Dispatch for Greenwood Lake EMS,2024-11-26,https://radioreference.com
-Orange County,Kiryas Joel,KJ EMS,155.955,Simplex,,110.9 PL,FMN,EMS Dispatch,Hatzolah EMS,EMS dispatch for Kiryas Joel,2024-11-26,https://radioreference.com
-Orange County,Maybrook,Maybrook DPW,155.985,Simplex,,123.0 PL,FMN,Public Works,DPW,Public works communications,2024-11-26,https://radioreference.com
-Orange County,New Windsor,NW EMS Disp,150.845,Simplex,,141.3 PL,FMN,EMS Dispatch,EMS Dispatch,Primary EMS dispatch,2024-11-26,https://radioreference.com
-Orange County,Port Jervis,Port Jervis FD,154.100,Simplex,,127.3 PL,FMN,Public Works,Operations,City buses and DPW communications,2024-11-26,https://radioreference.com
-Orange County,Washingtonville,Washingtonville DPW,155.820,Simplex,,210.7 PL,FMN,Public Works,DPW,Public works communications,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC Jail,460.4125,Simplex,,71.9 PL,FMN,Corrections,Jail operations,LISTEN ONLY - Used by Sheriff,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC FD Paging,154.205,Simplex,,123.0 PL,FMN,Fire Dispatch,Fire Paging,LISTEN ONLY - Paging for fire services,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC FG A,458.9875,Simplex,,110.9 PL,FMN,Fire-Tac,Fireground A,LISTEN ONLY - Primary fireground channel,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC EM FG,460.5875,Simplex,,162.2 PL,FMN,Fire-Tac,Emergency Fireground,LISTEN ONLY - Alternate fireground channel,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC Cmd A,453.9625,Simplex,,123.0 PL,FMN,Fire-Tac,Command A,LISTEN ONLY - Primary command channel,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC Cmd B,465.5875,Simplex,,516 DPL,FMN,Fire-Tac,Command B,LISTEN ONLY - Secondary command channel,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC FG B,458.2625,Simplex,,110.9 PL,FMN,Fire-Tac,Fireground B,LISTEN ONLY - Alternate fireground channel,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC EMS Paging,157.450,Simplex,,136.5 PL,FMN,EMS Dispatch,EMS Paging,LISTEN ONLY - Simulcast EMS paging,2024-11-26,https://radioreference.com
+Orange County,Orange County,OC EMS Tact,155.280,Simplex,,100.0 PL,FMN,EMS-Tac,EMS Tactical,LISTEN ONLY - Tactical operations channel,2024-11-26,https://radioreference.com
+Orange County,Orange County,PS Ground A,853.9875,Simplex,,156.7 PL,FMN,Interop,Public Safety Ground A,LISTEN ONLY - Public safety interop channel,2024-11-26,https://radioreference.com
+Orange County,Blooming Grove,BlmGrv Highway,151.040,Simplex,,100.0 PL,FMN,Public Works,Highway Dept,LISTEN ONLY - Highway department communications,2024-11-26,https://radioreference.com
+Orange County,Cornwall,Cornwall DPW,155.115,Simplex,,88.5 PL,FMN,Public Works,DPW,LISTEN ONLY - Public works communications,2024-11-26,https://radioreference.com
+Orange County,Greenwood Lake,GrnwdLkEMSDp,156.165,Simplex,,94.8 PL,FMN,EMS Dispatch,EMS Dispatch,LISTEN ONLY - Dispatch for Greenwood Lake EMS,2024-11-26,https://radioreference.com
+Orange County,Kiryas Joel,KJ EMS,155.955,Simplex,,110.9 PL,FMN,EMS Dispatch,Hatzolah EMS,LISTEN ONLY - EMS dispatch for Kiryas Joel,2024-11-26,https://radioreference.com
+Orange County,Maybrook,Maybrook DPW,155.985,Simplex,,123.0 PL,FMN,Public Works,DPW,LISTEN ONLY - Public works communications,2024-11-26,https://radioreference.com
+Orange County,New Windsor,NW EMS Disp,150.845,Simplex,,141.3 PL,FMN,EMS Dispatch,EMS Dispatch,LISTEN ONLY - Primary EMS dispatch,2024-11-26,https://radioreference.com
+Orange County,Port Jervis,Port Jervis FD,154.100,Simplex,,127.3 PL,FMN,Public Works,Operations,LISTEN ONLY - City buses and DPW communications,2024-11-26,https://radioreference.com
+Orange County,Washingtonville,Washingtonville DPW,155.820,Simplex,,210.7 PL,FMN,Public Works,DPW,LISTEN ONLY - Public works communications,2024-11-26,https://radioreference.com
 Orange County,Orange County,OC Jail,460.4125,Simplex,,71.9 PL,FMN,Corrections,Jail operations,"LISTEN ONLY - Corrections operations, no transmit",2024-11-26,radioreference.com
 Orange County,Cornwall-on-Hudson,CoH DPW,154.965,Simplex,,CSQ,FMN,Public Works,DPW,"LISTEN ONLY - Cornwall-on-Hudson public works, no transmit",2024-11-26,radioreference.com
 Orange County,Kiryas Joel,KJ Vil Ops,158.805,Simplex,,455 DPL,FMN,Public Works,Village Ops,"LISTEN ONLY - Village operations, no transmit",2024-11-26,radioreference.com

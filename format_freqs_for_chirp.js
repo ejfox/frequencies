@@ -1,24 +1,11 @@
-const fs = require("fs");
-const path = require("path");
-const readline = require("readline");
-const { stringify } = require("csv-stringify");
+const fs = require('fs');
+const path = require('path');
+const readline = require('readline');
 
-// Headers for CHIRP-compatible CSV
+// Headers for CHIRP
 const chirpHeaders = [
-  "Location",
-  "Name",
-  "Frequency",
-  "Duplex",
-  "Offset",
-  "Tone",
-  "rToneFreq",
-  "cToneFreq",
-  "DtcsCode",
-  "DtcsPolarity",
-  "Mode",
-  "TStep",
-  "Skip",
-  "Comment",
+  "Location", "Name", "Frequency", "Duplex", "Offset", "Tone", "rToneFreq", "cToneFreq",
+  "DtcsCode", "DtcsPolarity", "Mode", "TStep", "Skip", "Comment"
 ];
 
 // Substitution dictionary tailored to your spreadsheet
@@ -42,7 +29,7 @@ const substitutions = {
   "Highway": "Hwy",
 };
 
-// Apply substitutions to shorten names
+// Function to apply substitutions
 function applySubstitutions(name) {
   Object.keys(substitutions).forEach((key) => {
     const regex = new RegExp(key, "gi");
@@ -51,45 +38,60 @@ function applySubstitutions(name) {
   return name;
 }
 
-// Generate acronyms from the first letters of words
+// Function to create acronyms from remaining words
 function createAcronym(name) {
   return name
     .split(/\s+/) // Split by spaces
-    .map((word) => word.charAt(0).toUpperCase()) // Take the first letter of each word
+    .map(word => word.charAt(0).toUpperCase()) // Take the first letter of each word
     .join(""); // Combine letters into an acronym
 }
 
-// Shorten the name for CHIRP, ensuring ≤ 10 characters and adding "!" for listen-only
-function shortenName(name, notes) {
-  let shortened = name;
-
-  // Step 1: Skip modification if already ≤ 10 characters
-  if (shortened.length > 10) {
-    // Step 2: Apply substitutions
-    shortened = applySubstitutions(name);
-
-    // Step 3: Generate acronym if still too long
-    if (shortened.length > 10) {
-      shortened = createAcronym(shortened);
-    }
-
-    // Step 4: Truncate to 10 characters
-    shortened = shortened.slice(0, 10);
+// Function to shorten the name for CHIRP
+function shortenName(name, comment = "") {
+  if (name.length <= 10) {
+    return comment.includes("LISTEN ONLY") ? `!${name}` : name;
   }
 
-  // Step 5: Add "!" if listen-only channel
-  if (notes.toLowerCase().includes("listen only")) {
+  let shortened = applySubstitutions(name);
+  if (shortened.length > 10) {
+    shortened = createAcronym(shortened);
+  }
+  if (comment.includes("LISTEN ONLY")) {
     shortened = `!${shortened}`;
   }
-
-  return shortened;
+  return shortened.slice(0, 8); // Truncate to 8 characters for CHIRP
 }
 
-// File paths
-const inputFilePath = path.resolve("frequencies.csv"); // Input file
-const outputFilePath = path.resolve("chirp_formatted.csv"); // Output file
+// Function to validate and normalize CHIRP fields
+function validateChirpRow(row) {
+  const {
+    Location, Name, Frequency, Duplex, Offset, Tone, rToneFreq, cToneFreq, DtcsCode, DtcsPolarity,
+    Mode, TStep, Skip, Comment
+  } = row;
 
-// Reformat input data for CHIRP
+  const toneEmpty = !Tone || Tone.toLowerCase() === "none";
+
+  return {
+    Location: parseInt(Location, 10) || 0,
+    Name: Name.slice(0, 10),
+    Frequency: parseFloat(Frequency).toFixed(6) || "",
+    Duplex: Duplex.toLowerCase() === "simplex" ? "off" : Duplex === "+" ? "+" : "-",
+    Offset: parseFloat(Offset).toFixed(3) || "0.000",
+    Tone: ["Tone", "TSQL", "DTCS", "Cross"].includes(Tone) ? Tone : "",
+    rToneFreq: toneEmpty ? "" : parseFloat(rToneFreq).toFixed(1) || "",
+    cToneFreq: toneEmpty ? "" : parseFloat(cToneFreq).toFixed(1) || "",
+    DtcsCode: "",
+    DtcsPolarity: "",
+    Mode: Mode.toUpperCase() === "FM" ? "FM" : "NFM",
+    TStep: "5.00",
+    Skip: Skip || "",
+    Comment: Comment.trim(),
+  };
+}
+
+const inputFilePath = path.resolve("frequencies.csv");
+const outputFilePath = path.resolve("chirp_formatted.csv");
+
 async function reformatForCHIRP() {
   const rl = readline.createInterface({
     input: fs.createReadStream(inputFilePath),
@@ -97,70 +99,44 @@ async function reformatForCHIRP() {
     terminal: false,
   });
 
-  const outputRows = [];
+  const outputRows = [chirpHeaders.join(",")];
   let lineCount = 0;
   let memorySlot = 1;
 
   for await (const line of rl) {
     lineCount++;
-    if (lineCount === 1) continue; // Skip input header row
+    if (lineCount === 1) continue;
 
     const fields = line.split(",");
     const [
-      region, // Region (ignored in CHIRP)
-      location, // Location (ignored)
-      name, // Name
-      frequency, // Frequency
-      duplex, // Duplex
-      offset, // Offset
-      tone, // Tone
-      mode, // Mode
-      type, // Type (ignored)
-      tag, // Tag (ignored)
-      notes, // Notes
-    ] = fields.map((f) => f.trim()); // Trim whitespace
+      region, location, name, frequency, duplex, offset, tone, mode, type, tag, notes
+    ] = fields;
 
     const shortenedName = shortenName(name, notes);
 
-    // Map fields to CHIRP-compatible format
-    const chirpRow = {
+    const chirpRow = validateChirpRow({
       Location: memorySlot,
       Name: shortenedName,
-      Frequency: frequency || "",
-      Duplex: duplex.toLowerCase() === "simplex" ? "off" : duplex === "+" ? "+" : "-",
-      Offset: offset || "0.000",
-      Tone:
-        tone.toUpperCase() === "CTCSS"
-          ? "Tone"
-          : tone.toUpperCase() === "TSQL"
-          ? "TSQL"
-          : "None",
-      rToneFreq:
-        tone.toUpperCase() === "CTCSS" || tone.toUpperCase() === "TSQL" ? fields[6] : "",
-      cToneFreq: tone.toUpperCase() === "TSQL" ? fields[6] : "",
+      Frequency: frequency,
+      Duplex: duplex,
+      Offset: offset,
+      Tone: tone,
+      rToneFreq: tone === "Tone" || tone === "TSQL" ? fields[6] : "",
+      cToneFreq: tone === "TSQL" ? fields[6] : "",
       DtcsCode: "",
       DtcsPolarity: "",
-      Mode: mode.toUpperCase() === "FM" ? "FM" : "NFM",
-      TStep: "5.00", // Default step size
+      Mode: mode,
+      TStep: "5.00",
       Skip: "",
-      Comment: notes || "",
-    };
+      Comment: notes.trim(),
+    });
 
-    // Add row to output
-    outputRows.push(chirpRow);
+    outputRows.push(chirpHeaders.map(header => chirpRow[header]).join(","));
     memorySlot++;
   }
 
-  // Write output file using CSV stringify
-  stringify(outputRows, { header: true, columns: chirpHeaders }, (err, output) => {
-    if (err) {
-      console.error("Error writing CSV:", err);
-      return;
-    }
-    fs.writeFileSync(outputFilePath, output);
-    console.log(`Reformatted data saved to ${outputFilePath}`);
-  });
+  fs.writeFileSync(outputFilePath, outputRows.join("\n"));
+  console.log(`Reformatted data saved to ${outputFilePath}`);
 }
 
-// Run the formatter
 reformatForCHIRP();
